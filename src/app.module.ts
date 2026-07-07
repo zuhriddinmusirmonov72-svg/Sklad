@@ -12,10 +12,9 @@ import jwtConfig from './config/jwt.config';
 import uploadConfig from './config/upload.config';
 
 // Module imports
-import { PrismaModule } from './modules/prisma/prisma.module';
 import { AuthModule } from './modules/auth/auth.module';
-import { UsersModule } from './modules/users/users.module';
-import { UploadModule } from './modules/upload/upload.module';
+import { AdminProductsModule } from './modules/admin-products/admin-products.module';
+import { AdminOrdersModule } from './modules/admin-orders/admin-orders.module';
 import { AppController } from './app.controller';
 
 @Module({
@@ -59,11 +58,10 @@ import { AppController } from './app.controller';
       },
     ]),
 
-    // Feature modules
-    PrismaModule,
+    // Feature modules - BIR DATABASE (database.json)
     AuthModule,
-    UsersModule,
-    UploadModule,
+    AdminProductsModule,
+    AdminOrdersModule,
   ],
   controllers: [AppController],
   providers: [

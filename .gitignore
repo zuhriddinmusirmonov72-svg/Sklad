@@ -40,9 +40,12 @@ lerna-debug.log*
 .env.local
 .env.*.local
 
+# BUT keep production env template
+!.env.production
+
 # Uploads
 uploads/
 temp/
 
 # Prisma
-prisma/migrations/
+# Keep migrations for production deploy

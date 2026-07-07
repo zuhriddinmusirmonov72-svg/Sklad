@@ -63,27 +63,12 @@ async function bootstrap() {
 
   // Swagger documentation
   const swaggerConfig = new DocumentBuilder()
-    .setTitle('NestJS E-Commerce API')
-    .setDescription('Production-ready E-Commerce Management System API')
-    .setVersion('1.0.0')
-    .addBearerAuth(
-      {
-        type: 'http',
-        scheme: 'bearer',
-        bearerFormat: 'JWT',
-        name: 'JWT',
-        description: 'Enter JWT token',
-        in: 'header',
-      },
-      'JWT-auth',
-    )
-    .addTag('Authentication', 'Authentication endpoints')
-    .addTag('Users', 'User management endpoints')
-    .addTag('Customers', 'Customer management endpoints')
-    .addTag('Products', 'Product management endpoints')
-    .addTag('Orders', 'Order management endpoints')
-    .addTag('Upload', 'File upload endpoints')
-    .addTag('Health', 'Health check endpoints')
+    .setTitle('Admin Panel API')
+    .setDescription('Mahsulot va Buyurtmalarni Boshqarish')
+    .setVersion('3.0.0') // YANGI VERSIYA - cache tozalash uchun
+    .addTag('1. Kirish', 'Login: admin@gmail.com / admin')
+    .addTag('2. Mahsulotlar', 'Mahsulotlarni boshqarish')
+    .addTag('3. Mijoz Buyurtmalari', 'Buyurtmalarni ko\'rish')
     .build();
 
   const document = SwaggerModule.createDocument(app, swaggerConfig);
@@ -95,19 +80,42 @@ async function bootstrap() {
     },
   });
 
-  // Start server
-  await app.listen(port);
+  // Start server on all network interfaces
+  await app.listen(port, '0.0.0.0');
+
+  // Get local IP address
+  const networkInterfaces = require('os').networkInterfaces();
+  let localIP = 'localhost';
+  
+  for (const name of Object.keys(networkInterfaces)) {
+    for (const net of networkInterfaces[name]) {
+      // Skip internal and non-IPv4 addresses
+      if (net.family === 'IPv4' && !net.internal) {
+        localIP = net.address;
+        break;
+      }
+    }
+  }
 
   logger.log(`
 ╔═══════════════════════════════════════════════════════════════╗
 ║                                                               ║
-║   🚀 E-Commerce Management System API                        ║
+║   🚀 Admin Panel API - O'zbekcha                             ║
 ║                                                               ║
-║   📍 Server:        http://localhost:${port}                      ║
-║   🌐 API:           http://localhost:${port}/${apiPrefix}              ║
-║   📚 Documentation: http://localhost:${port}/api/docs              ║
+║   📍 Local:         http://localhost:${port}                      ║
+║   🌐 Network:       http://${localIP}:${port}              ║
+║   📚 Swagger:       http://${localIP}:${port}/api/docs        ║
 ║   🔐 Environment:   ${configService.get('app.nodeEnv')}                        ║
 ║   ✨ Status:        Running                                  ║
+║                                                               ║
+║   📦 APIlar:                                                  ║
+║   • GET/POST/PATCH/DELETE /admin-products                     ║
+║   • GET/POST/PATCH/DELETE /admin-orders                       ║
+║   • POST /upload/single                                       ║
+║   • POST /auth/login                                          ║
+║                                                               ║
+║   💡 Wi-Fi orqali: Network linkidan foydalaning               ║
+║   🌍 Internet orqali: Ngrok tunnel ishga tushiring            ║
 ║                                                               ║
 ╚═══════════════════════════════════════════════════════════════╝
   `);

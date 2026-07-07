@@ -1,0 +1,226 @@
+// E-Commerce Management System - Production Schema
+// Database: PostgreSQL
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+// ==========================================
+// ADMIN & AUTHENTICATION
+// ==========================================
+
+model Admin {
+  id          String    @id @default(uuid())
+  email       String    @unique
+  password    String
+  fullName    String
+  role        String    @default("ADMIN") // SUPER_ADMIN, ADMIN, MANAGER
+  isActive    Boolean   @default(true)
+  lastLoginAt DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  // Relations
+  createdProducts Product[]
+  createdOrders   Order[]
+
+  @@index([email])
+  @@index([role])
+  @@index([isActive])
+  @@map("admins")
+}
+
+// ==========================================
+// PRODUCT MANAGEMENT
+// ==========================================
+
+model Category {
+  id          String   @id @default(uuid())
+  name        String   @unique
+  slug        String   @unique
+  description String?
+  isActive    Boolean  @default(true)
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  // Relations
+  products Product[]
+
+  @@index([slug])
+  @@index([isActive])
+  @@map("categories")
+}
+
+model Product {
+  id             String   @id @default(uuid())
+  name           String
+  slug           String   @unique
+  description    String?
+  price          Float
+  discountPrice  Float?
+  sku            String   @unique
+  stockQuantity  Int      @default(0)
+  minStockLevel  Int      @default(5)
+  categoryId     String
+  isActive       Boolean  @default(true)
+  isFeatured     Boolean  @default(false)
+  tags           String? // Comma-separated
+  unit           String   @default("pcs") // pcs, kg, liter, etc.
+  weight         Float? // in kg
+  dimensions     String? // L x W x H
+  totalSold      Int      @default(0)
+  viewCount      Int      @default(0)
+  createdBy      String
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  // Relations
+  category   Category       @relation(fields: [categoryId], references: [id], onDelete: Restrict)
+  creator    Admin          @relation(fields: [createdBy], references: [id], onDelete: Restrict)
+  images     ProductImage[]
+  orderItems OrderItem[]
+
+  @@index([slug])
+  @@index([sku])
+  @@index([categoryId])
+  @@index([isActive])
+  @@index([isFeatured])
+  @@index([price])
+  @@index([stockQuantity])
+  @@map("products")
+}
+
+model ProductImage {
+  id        String   @id @default(uuid())
+  productId String
+  url       String
+  filename  String
+  isPrimary Boolean  @default(false)
+  sortOrder Int      @default(0)
+  fileSize  Int? // in bytes
+  mimeType  String?
+  createdAt DateTime @default(now())
+
+  // Relations
+  product Product @relation(fields: [productId], references: [id], onDelete: Cascade)
+
+  @@index([productId])
+  @@index([isPrimary])
+  @@map("product_images")
+}
+
+// ==========================================
+// CUSTOMER MANAGEMENT
+// ==========================================
+
+model Customer {
+  id          String    @id @default(uuid())
+  fullName    String
+  phone       String    @unique
+  email       String?
+  address     String?
+  city        String?
+  postalCode  String?
+  notes       String?
+  totalOrders Int       @default(0)
+  totalSpent  Float     @default(0)
+  lastOrderAt DateTime?
+  isActive    Boolean   @default(true)
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  // Relations
+  orders Order[]
+
+  @@index([phone])
+  @@index([email])
+  @@index([fullName])
+  @@index([isActive])
+  @@map("customers")
+}
+
+// ==========================================
+// ORDER MANAGEMENT
+// ==========================================
+
+model Order {
+  id            String   @id @default(uuid())
+  orderNumber   String   @unique
+  customerId    String
+  status        String   @default("PENDING") // PENDING, CONFIRMED, PROCESSING, SHIPPED, DELIVERED, CANCELLED, REFUNDED
+  subtotal      Float
+  discount      Float    @default(0)
+  tax           Float    @default(0)
+  shippingCost  Float    @default(0)
+  total         Float
+  notes         String?
+  paymentMethod String   @default("CASH") // CASH, CARD, BANK_TRANSFER, ONLINE
+  paymentStatus String   @default("PENDING") // PENDING, PAID, FAILED, REFUNDED
+  shippingAddress String?
+  trackingNumber String?
+  createdBy     String
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  confirmedAt   DateTime?
+  shippedAt     DateTime?
+  deliveredAt   DateTime?
+  cancelledAt   DateTime?
+
+  // Relations
+  customer Customer    @relation(fields: [customerId], references: [id], onDelete: Restrict)
+  creator  Admin       @relation(fields: [createdBy], references: [id], onDelete: Restrict)
+  items    OrderItem[]
+
+  @@index([orderNumber])
+  @@index([customerId])
+  @@index([status])
+  @@index([paymentStatus])
+  @@index([createdAt])
+  @@map("orders")
+}
+
+model OrderItem {
+  id          String   @id @default(uuid())
+  orderId     String
+  productId   String
+  productName String // Snapshot
+  productSku  String // Snapshot
+  quantity    Int
+  unitPrice   Float // Snapshot
+  discount    Float    @default(0)
+  total       Float
+  createdAt   DateTime @default(now())
+
+  // Relations
+  order   Order   @relation(fields: [orderId], references: [id], onDelete: Cascade)
+  product Product @relation(fields: [productId], references: [id], onDelete: Restrict)
+
+  @@index([orderId])
+  @@index([productId])
+  @@map("order_items")
+}
+
+// ==========================================
+// SYSTEM SETTINGS
+// ==========================================
+
+model SystemSetting {
+  id        String   @id @default(uuid())
+  key       String   @unique
+  value     String
+  type      String   @default("STRING") // STRING, NUMBER, BOOLEAN, JSON
+  group     String   @default("GENERAL")
+  isPublic  Boolean  @default(false)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  @@index([key])
+  @@index([group])
+  @@map("system_settings")
+}

@@ -12,6 +12,26 @@ datasource db {
 }
 
 // ==========================================
+// O'ZBEKCHA MAHSULOTLAR (Cheksiz Saqlash)
+// ==========================================
+
+model ProductUz {
+  id                String   @id @default(uuid())
+  nomi              String
+  grammm            Float
+  qutiIchidaNechta  Int
+  narxUSD           Float
+  narxUZS           Float
+  skladMiqdori      Int
+  rasmUrl           String
+  tavsif            String?
+  createdAt         DateTime @default(now())
+  updatedAt         DateTime @updatedAt
+
+  @@map("products_uz")
+}
+
+// ==========================================
 // ADMIN & AUTHENTICATION
 // ==========================================
 

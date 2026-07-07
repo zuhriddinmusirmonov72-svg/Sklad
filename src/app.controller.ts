@@ -2,7 +2,7 @@ import { Controller, Get, Render } from '@nestjs/common';
 import { ApiTags, ApiOperation, ApiResponse } from '@nestjs/swagger';
 import { Public } from './common/decorators/public.decorator';
 
-@ApiTags('Health')
+@ApiTags('Sog\'liqni Tekshirish')
 @Controller()
 export class AppController {
   @Get()

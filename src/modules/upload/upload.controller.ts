@@ -21,7 +21,7 @@ import {
 import { UploadService } from './upload.service';
 import { JwtAuthGuard } from '../../common/guards/jwt-auth.guard';
 
-@ApiTags('Upload')
+@ApiTags('Yuklash')
 @Controller('upload')
 @UseGuards(JwtAuthGuard)
 @ApiBearerAuth('JWT-auth')
