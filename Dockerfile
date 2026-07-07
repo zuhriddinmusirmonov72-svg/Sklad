@@ -14,7 +14,7 @@ RUN npm ci
 COPY . .
 
 # Generate Prisma Client
-RUN DATABASE_URL="postgresql://dummy:dummy@dummy:5432/dummy" npx prisma generate
+RUN npx prisma generate
 
 # Build application
 RUN npm run build
@@ -37,7 +37,7 @@ COPY --from=builder /app/prisma ./prisma
 COPY --from=builder /app/dist ./dist
 
 # Generate Prisma Client for production
-RUN DATABASE_URL="postgresql://dummy:dummy@dummy:5432/dummy" npx prisma generate
+RUN npx prisma generate
 
 # Create uploads directory
 RUN mkdir -p uploads
