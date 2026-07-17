@@ -8,7 +8,6 @@
 # Node.js version
 [build.environment]
   NODE_VERSION = "20"
-  VITE_API_URL = "https://admin-express-backend.onrender.com"
 
 # Redirects for SPA (React Router) — MUHIM! Netlify link bilan kirish uchun
 [[redirects]]
