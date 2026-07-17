@@ -1,0 +1,27 @@
+{
+  "name": "admin-backend",
+  "version": "4.0.0",
+  "description": "Backend server for Admin Dashboard (PostgreSQL)",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "express",
+    "backend",
+    "api",
+    "postgresql"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "pg": "^8.22.0",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
