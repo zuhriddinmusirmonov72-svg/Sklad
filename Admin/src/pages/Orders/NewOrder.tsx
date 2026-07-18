@@ -10,10 +10,10 @@ export default function NewOrder() {
   const { id } = useParams();
   const { products, orders, addOrder, updateOrder, updateProduct } = useOrders();
   
-  const existingOrder = id ? orders.find(o => o.id === Number(id)) : null;
+  const existingOrder = id ? orders.find(o => o.id === id) : null;
 
   // ✅ Yaratilgan buyurtma ID sini saqlaymiz
-  const [createdOrderId, setCreatedOrderId] = useState<number | null>(existingOrder?.id || null);
+  const [createdOrderId, setCreatedOrderId] = useState<string | null>(existingOrder?.id || null);
 
   const [status, setStatus] = useState<OrderStatus>(existingOrder?.status || "Jo'natilmagan");
   const [customer, setCustomer] = useState(existingOrder?.customer || "");
@@ -32,13 +32,13 @@ export default function NewOrder() {
   const [hoverImageTimer, setHoverImageTimer] = useState<number | null>(null);
   const [customerSuggestions, setCustomerSuggestions] = useState<string[]>([]);
   const [showCustomerSug, setShowCustomerSug] = useState(false);
-  const [focusedLineId, setFocusedLineId] = useState<number | null>(null); // Qaysi qatorga fokus berish kerakligi
+  const [focusedLineId, setFocusedLineId] = useState<string | number | null>(null); // Qaysi qatorga fokus berish kerakligi
   const [showFilterModal, setShowFilterModal] = useState(false); // Filter modal
   const [showPrintMenu, setShowPrintMenu] = useState(false); // Print menu
   const searchRef = useRef<HTMLDivElement>(null);
   const customerRef = useRef<HTMLDivElement>(null);
   const searchInputRef = useRef<HTMLInputElement>(null); // Mahsulot qidirish input uchun
-  const lineQtyRefs = useRef<Map<number, HTMLInputElement>>(new Map()); // Jadval ichidagi miqdor inputlar
+  const lineQtyRefs = useRef<Map<string | number, HTMLInputElement>>(new Map()); // Jadval ichidagi miqdor inputlar
   const printMenuRef = useRef<HTMLDivElement>(null); // Print menu ref
 
   useEffect(() => {
@@ -160,8 +160,8 @@ export default function NewOrder() {
     }
   }, [focusedLineId, lines]);
 
-  const removeLine = (id: number) => setLines(l => l.filter(x => x.id !== id));
-  const updateLineQty = (id: number, q: number) => setLines(l => l.map(x => x.id === id ? { ...x, qty: q } : x));
+  const removeLine = (id: string | number) => setLines(l => l.filter(x => x.id !== id));
+  const updateLineQty = (id: string | number, q: number) => setLines(l => l.map(x => x.id === id ? { ...x, qty: q } : x));
 
   const subtotal = lines.reduce((s, l) => s + l.qty * l.price * (1 - l.discount / 100), 0);
 

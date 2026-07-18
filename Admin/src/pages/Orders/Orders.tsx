@@ -58,10 +58,10 @@ export default function Orders() {
     setShowSug(false);
   };
 
-  const removeLine = (id: number) => setLines(l => l.filter(x => x.id !== id));
+  const removeLine = (id: string | number) => setLines(l => l.filter(x => x.id !== id));
 
-  const updateLineQty = (id: number, q: number) => setLines(l => l.map(x => x.id === id ? { ...x, qty: q } : x));
-  const updateLineDiscount = (id: number, d: number) => setLines(l => l.map(x => x.id === id ? { ...x, discount: d } : x));
+  const updateLineQty = (id: string | number, q: number) => setLines(l => l.map(x => x.id === id ? { ...x, qty: q } : x));
+  const updateLineDiscount = (id: string | number, d: number) => setLines(l => l.map(x => x.id === id ? { ...x, discount: d } : x));
 
   const subtotal = lines.reduce((s, l) => s + l.qty * l.price * (1 - l.discount / 100), 0);
 

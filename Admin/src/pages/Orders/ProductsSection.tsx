@@ -4,8 +4,8 @@ import { Product } from "./types";
 interface Props {
   products: Product[];
   onAdd: (p: Omit<Product, 'id'>) => Promise<void>;
-  onUpdate: (id: number, p: Partial<Product>) => Promise<void>;
-  onDelete: (id: number) => Promise<void>;
+  onUpdate: (id: string, p: Partial<Product>) => Promise<void>;
+  onDelete: (id: string) => Promise<void>;
   onRefresh: () => Promise<void>;
   isLoading: boolean;
 }
@@ -14,7 +14,7 @@ export default function ProductsSection({ products, onAdd, onUpdate, onDelete, o
   const [open, setOpen] = useState(true);
   const [form, setForm] = useState({ name: "", image: "", stock: 0, price: 0, category: "", weight: 0, packQuantity: 1 });
   const [adding, setAdding] = useState(false);
-  const [editing, setEditing] = useState<number | null>(null);
+  const [editing, setEditing] = useState<string | null>(null);
   const [error, setError] = useState("");
   const [zoomedImage, setZoomedImage] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
