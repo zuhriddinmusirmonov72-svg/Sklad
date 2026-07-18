@@ -9,17 +9,23 @@ interface OrdersContextType {
   isLoadingData: boolean;
   refreshData: () => Promise<void>;
   addProduct: (product: Omit<Product, 'id'>) => Promise<void>;
-  updateProduct: (id: number, product: Partial<Product>) => Promise<void>;
-  deleteProduct: (id: number) => Promise<void>;
+  updateProduct: (id: string, product: Partial<Product>) => Promise<void>;
+  deleteProduct: (id: string) => Promise<void>;
   addOrder: (order: Omit<Order, 'id' | 'orderNumber'>) => Promise<Order | undefined>;
-  updateOrder: (id: number, order: Partial<Order>) => Promise<void>;
-  deleteOrder: (id: number) => Promise<void>;
+  updateOrder: (id: string, order: Partial<Order>) => Promise<void>;
+  deleteOrder: (id: string) => Promise<void>;
 }
 
 const OrdersContext = createContext<OrdersContextType | undefined>(undefined);
 
 // Backend API URL
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+
+// MongoDB _id ni id ga normalize qilish
+function normalize<T extends { _id?: string; id?: string }>(doc: T): T {
+  if (doc._id && !doc.id) doc.id = doc._id;
+  return doc;
+}
 
 export function OrdersProvider({ children }: { children: ReactNode }) {
   const [products, setProducts] = useState<Product[]>([]);
@@ -38,14 +44,14 @@ export function OrdersProvider({ children }: { children: ReactNode }) {
       const productsRes = await fetch(`${API_URL}/api/products`);
       const productsData = await productsRes.json();
       if (productsData.success) {
-        setProducts(productsData.data);
+        setProducts(productsData.data.map((p: Product) => normalize(p)));
       }
 
       // Buyurtmalarni yuklash
       const ordersRes = await fetch(`${API_URL}/api/orders`);
       const ordersData = await ordersRes.json();
       if (ordersData.success) {
-        setOrders(ordersData.data);
+        setOrders(ordersData.data.map((o: Order) => normalize(o)));
       }
     } catch (error) {
       console.error('Backend bilan bog\'lanishda xatolik:', error);
@@ -64,7 +70,7 @@ export function OrdersProvider({ children }: { children: ReactNode }) {
       });
       const data = await res.json();
       if (data.success) {
-        setProducts(prev => [...prev, data.data]);
+        setProducts(prev => [...prev, normalize(data.data)]);
       }
     } catch (error) {
       console.error('Mahsulot qo\'shishda xatolik:', error);
@@ -72,7 +78,7 @@ export function OrdersProvider({ children }: { children: ReactNode }) {
   }
 
   // Mahsulotni yangilash
-  async function updateProduct(id: number, product: Partial<Product>) {
+  async function updateProduct(id: string, product: Partial<Product>) {
     try {
       const res = await fetch(`${API_URL}/api/products/${id}`, {
         method: 'PUT',
@@ -81,7 +87,7 @@ export function OrdersProvider({ children }: { children: ReactNode }) {
       });
       const data = await res.json();
       if (data.success) {
-        setProducts(prev => prev.map(p => p.id === id ? data.data : p));
+        setProducts(prev => prev.map(p => p.id === id ? normalize(data.data) : p));
       }
     } catch (error) {
       console.error('Mahsulotni yangilashda xatolik:', error);
@@ -89,7 +95,7 @@ export function OrdersProvider({ children }: { children: ReactNode }) {
   }
 
   // Mahsulotni o'chirish
-  async function deleteProduct(id: number) {
+  async function deleteProduct(id: string) {
     try {
       const res = await fetch(`${API_URL}/api/products/${id}`, {
         method: 'DELETE'
@@ -113,8 +119,8 @@ export function OrdersProvider({ children }: { children: ReactNode }) {
       });
       const data = await res.json();
       if (data.success) {
-        setOrders(prev => [...prev, data.data]);
-        return data.data as Order;
+        setOrders(prev => [...prev, normalize(data.data)]);
+        return normalize(data.data) as Order;
       }
     } catch (error) {
       console.error('Buyurtma qo\'shishda xatolik:', error);
@@ -123,7 +129,7 @@ export function OrdersProvider({ children }: { children: ReactNode }) {
   }
 
   // Buyurtmani yangilash
-  async function updateOrder(id: number, order: Partial<Order>) {
+  async function updateOrder(id: string, order: Partial<Order>) {
     try {
       const res = await fetch(`${API_URL}/api/orders/${id}`, {
         method: 'PUT',
@@ -132,7 +138,7 @@ export function OrdersProvider({ children }: { children: ReactNode }) {
       });
       const data = await res.json();
       if (data.success) {
-        setOrders(prev => prev.map(o => o.id === id ? data.data : o));
+        setOrders(prev => prev.map(o => o.id === id ? normalize(data.data) : o));
       }
     } catch (error) {
       console.error('Buyurtmani yangilashda xatolik:', error);
@@ -140,7 +146,7 @@ export function OrdersProvider({ children }: { children: ReactNode }) {
   }
 
   // Buyurtmani o'chirish
-  async function deleteOrder(id: number) {
+  async function deleteOrder(id: string) {
     try {
       const res = await fetch(`${API_URL}/api/orders/${id}`, {
         method: 'DELETE'

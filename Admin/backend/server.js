@@ -1,56 +1,86 @@
 ﻿const express = require('express');
 const cors = require('cors');
-const fs = require('fs');
-const path = require('path');
+const mongoose = require('mongoose');
 const swaggerUi = require('swagger-ui-express');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
-const DB_PATH = path.join(__dirname, 'database.json');
+const MONGODB_URI = process.env.MONGODB_URI;
 
 // Middleware
 app.use(cors({ origin: '*', methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'], credentials: true }));
 app.use(express.json());
 
-// Database functions
-function readDatabase() {
+// ==================== MONGOOSE SCHEMAS ====================
+
+const ProductSchema = new mongoose.Schema({
+  name: { type: String, required: true },
+  category: { type: String, default: '' },
+  weight: { type: Number, default: 0 },
+  packQuantity: { type: Number, default: 1 },
+  price: { type: Number, default: 0 },
+  stock: { type: Number, default: 0 },
+  image: { type: String, default: '' },
+}, { timestamps: true });
+
+const OrderLineSchema = new mongoose.Schema({
+  productId: Number,
+  name: String,
+  image: String,
+  qty: Number,
+  price: Number,
+  discount: { type: Number, default: 0 },
+});
+
+const OrderSchema = new mongoose.Schema({
+  orderNumber: { type: String },
+  customer: { type: String, required: true },
+  phone: { type: String, default: '' },
+  date: { type: String },
+  status: { type: String, default: "Jo'natilmagan" },
+  warehouse: { type: String, default: 'Склад' },
+  address: { type: String, default: '' },
+  comment: { type: String, default: '' },
+  currency: { type: String, default: 'USD' },
+  lines: [OrderLineSchema],
+  isWarehousePrinted: { type: Boolean, default: false },
+}, { timestamps: true });
+
+const CustomerOrderSchema = new mongoose.Schema({
+  customer: String,
+  phone: String,
+  product: String,
+  qty: Number,
+  status: { type: String, default: 'pending' },
+}, { timestamps: true });
+
+const Product = mongoose.model('Product', ProductSchema);
+const Order = mongoose.model('Order', OrderSchema);
+const CustomerOrder = mongoose.model('CustomerOrder', CustomerOrderSchema);
+
+// ==================== MONGODB ULANISH ====================
+async function connectDB() {
+  if (!MONGODB_URI) {
+    console.error('❌ MONGODB_URI environment variable topilmadi!');
+    process.exit(1);
+  }
   try {
-    if (!fs.existsSync(DB_PATH)) {
-      const defaultData = { products: [], orders: [], customerOrders: [] };
-      fs.writeFileSync(DB_PATH, JSON.stringify(defaultData, null, 2));
-      return defaultData;
-    }
-    const raw = fs.readFileSync(DB_PATH, 'utf8');
-    const data = JSON.parse(raw);
-    if (!data.customerOrders) data.customerOrders = [];
-    if (!data.orders) data.orders = [];
-    if (!data.products) data.products = [];
-    return data;
-  } catch (error) {
-    console.error('Database error:', error.message);
-    return { products: [], orders: [], customerOrders: [] };
+    await mongoose.connect(MONGODB_URI);
+    console.log('✅ MongoDB Atlas ga ulandi!');
+  } catch (err) {
+    console.error('❌ MongoDB ulanishda xatolik:', err.message);
+    process.exit(1);
   }
 }
 
-function writeDatabase(data) {
-  try {
-    fs.writeFileSync(DB_PATH, JSON.stringify(data, null, 2));
-    return true;
-  } catch (error) {
-    console.error('Write error:', error.message);
-    return false;
-  }
-}
-
-// Swagger spec
+// ==================== SWAGGER ====================
 const swaggerSpec = {
   openapi: '3.0.0',
-  info: { title: 'Admin Panel API', version: '3.0.0', description: 'Mahsulot va Buyurtmalarni Boshqarish' },
+  info: { title: 'Admin Panel API', version: '4.0.0', description: 'MongoDB Atlas bilan ishlaydi' },
   tags: [
-    { name: 'Auth', description: 'Login: admin@gmail.com / admin' },
-    { name: 'Products', description: 'Mahsulotlarni boshqarish' },
-    { name: 'Orders', description: 'Buyurtmalarni boshqarish' },
-    { name: 'CustomerOrders', description: 'Mijoz zakaslari' },
+    { name: 'Auth', description: 'Login' },
+    { name: 'Products', description: 'Mahsulotlar' },
+    { name: 'Orders', description: 'Buyurtmalar' },
   ],
   paths: {},
 };
@@ -66,19 +96,18 @@ app.post('/api/auth/login', (req, res) => {
 });
 
 // ==================== PRODUCTS ====================
-app.get('/api/products', (req, res) => {
+app.get('/api/products', async (req, res) => {
   try {
-    const db = readDatabase();
-    res.json({ success: true, data: db.products });
+    const products = await Product.find().sort({ createdAt: -1 });
+    res.json({ success: true, data: products });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
 });
 
-app.get('/api/products/:id', (req, res) => {
+app.get('/api/products/:id', async (req, res) => {
   try {
-    const db = readDatabase();
-    const product = db.products.find(p => p.id === parseInt(req.params.id));
+    const product = await Product.findById(req.params.id);
     if (!product) return res.status(404).json({ success: false, message: 'Mahsulot topilmadi' });
     res.json({ success: true, data: product });
   } catch (err) {
@@ -86,69 +115,61 @@ app.get('/api/products/:id', (req, res) => {
   }
 });
 
-app.post('/api/products', (req, res) => {
+app.post('/api/products', async (req, res) => {
   try {
-    const db = readDatabase();
-    const newProduct = {
-      id: Date.now(),
+    const product = new Product({
       name: req.body.name,
       category: req.body.category || '',
-      weight: req.body.weight,
-      packQuantity: req.body.packQuantity,
-      price: req.body.price,
-      stock: req.body.stock,
+      weight: req.body.weight || 0,
+      packQuantity: req.body.packQuantity || 1,
+      price: req.body.price || 0,
+      stock: req.body.stock || 0,
       image: req.body.image || '',
-      createdAt: new Date().toISOString(),
-      updatedAt: new Date().toISOString()
-    };
-    db.products.push(newProduct);
-    writeDatabase(db);
-    res.json({ success: true, data: newProduct });
+    });
+    await product.save();
+    res.json({ success: true, data: product });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
 });
 
-app.put('/api/products/:id', (req, res) => {
+app.put('/api/products/:id', async (req, res) => {
   try {
-    const db = readDatabase();
-    const index = db.products.findIndex(p => p.id === parseInt(req.params.id));
-    if (index === -1) return res.status(404).json({ success: false, message: 'Mahsulot topilmadi' });
-    db.products[index] = { ...db.products[index], ...req.body, updatedAt: new Date().toISOString() };
-    writeDatabase(db);
-    res.json({ success: true, data: db.products[index] });
+    const product = await Product.findByIdAndUpdate(
+      req.params.id,
+      { ...req.body, updatedAt: new Date() },
+      { new: true }
+    );
+    if (!product) return res.status(404).json({ success: false, message: 'Mahsulot topilmadi' });
+    res.json({ success: true, data: product });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
 });
 
-app.delete('/api/products/:id', (req, res) => {
+app.delete('/api/products/:id', async (req, res) => {
   try {
-    const db = readDatabase();
-    const index = db.products.findIndex(p => p.id === parseInt(req.params.id));
-    if (index === -1) return res.status(404).json({ success: false, message: 'Mahsulot topilmadi' });
-    const deleted = db.products.splice(index, 1);
-    writeDatabase(db);
-    res.json({ success: true, data: deleted[0] });
+    const product = await Product.findByIdAndDelete(req.params.id);
+    if (!product) return res.status(404).json({ success: false, message: 'Mahsulot topilmadi' });
+    res.json({ success: true, data: product });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
 });
 
 // ==================== ORDERS ====================
-app.get('/api/orders', (req, res) => {
+app.get('/api/orders', async (req, res) => {
   try {
-    const db = readDatabase();
-    res.json({ success: true, data: db.orders });
+    const orders = await Order.find().sort({ createdAt: -1 });
+    res.json({ success: true, data: orders });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
 });
 
-app.get('/api/orders/:id', (req, res) => {
+app.get('/api/orders/:id', async (req, res) => {
   try {
-    const db = readDatabase();
-    const order = db.orders.find(o => o.id === parseInt(req.params.id));
+    const order = await Order.findById(req.params.id);
     if (!order) return res.status(404).json({ success: false, message: 'Buyurtma topilmadi' });
     res.json({ success: true, data: order });
   } catch (err) {
@@ -156,11 +177,9 @@ app.get('/api/orders/:id', (req, res) => {
   }
 });
 
-app.post('/api/orders', (req, res) => {
+app.post('/api/orders', async (req, res) => {
   try {
-    const db = readDatabase();
-    const newOrder = {
-      id: Date.now(),
+    const order = new Order({
       orderNumber: req.body.orderNumber || `ORD-${Date.now().toString().slice(-6)}`,
       customer: req.body.customer,
       phone: req.body.phone || '',
@@ -172,152 +191,120 @@ app.post('/api/orders', (req, res) => {
       currency: req.body.currency || 'USD',
       lines: req.body.lines || [],
       isWarehousePrinted: req.body.isWarehousePrinted || false,
-      createdAt: new Date().toISOString(),
-      updatedAt: new Date().toISOString()
-    };
-    db.orders.push(newOrder);
-    writeDatabase(db);
-    res.json({ success: true, data: newOrder });
+    });
+    await order.save();
+    res.json({ success: true, data: order });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
 });
 
-app.put('/api/orders/:id', (req, res) => {
+app.put('/api/orders/:id', async (req, res) => {
   try {
-    const db = readDatabase();
-    const index = db.orders.findIndex(o => o.id === parseInt(req.params.id));
-    if (index === -1) return res.status(404).json({ success: false, message: 'Buyurtma topilmadi' });
-    db.orders[index] = { ...db.orders[index], ...req.body, updatedAt: new Date().toISOString() };
-    writeDatabase(db);
-    res.json({ success: true, data: db.orders[index] });
+    const order = await Order.findByIdAndUpdate(
+      req.params.id,
+      { ...req.body, updatedAt: new Date() },
+      { new: true }
+    );
+    if (!order) return res.status(404).json({ success: false, message: 'Buyurtma topilmadi' });
+    res.json({ success: true, data: order });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
 });
 
-app.delete('/api/orders/:id', (req, res) => {
+app.delete('/api/orders/:id', async (req, res) => {
   try {
-    const db = readDatabase();
-    const index = db.orders.findIndex(o => o.id === parseInt(req.params.id));
-    if (index === -1) return res.status(404).json({ success: false, message: 'Buyurtma topilmadi' });
-    const deleted = db.orders.splice(index, 1);
-    writeDatabase(db);
-    res.json({ success: true, data: deleted[0] });
+    const order = await Order.findByIdAndDelete(req.params.id);
+    if (!order) return res.status(404).json({ success: false, message: 'Buyurtma topilmadi' });
+    res.json({ success: true, data: order });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
 });
 
 // ==================== CUSTOMER ORDERS ====================
-app.get('/api/customer-orders', (req, res) => {
+app.get('/api/customer-orders', async (req, res) => {
   try {
-    const db = readDatabase();
-    res.json({ success: true, data: db.customerOrders });
+    const orders = await CustomerOrder.find().sort({ createdAt: -1 });
+    res.json({ success: true, data: orders });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
 });
 
-app.post('/api/customer-orders', (req, res) => {
+app.post('/api/customer-orders', async (req, res) => {
   try {
-    const db = readDatabase();
-    const newOrder = {
-      id: Date.now(),
-      ...req.body,
-      status: req.body.status || 'pending',
-      createdAt: new Date().toISOString()
-    };
-    db.customerOrders.push(newOrder);
-    writeDatabase(db);
-    res.json({ success: true, data: newOrder });
+    const order = new CustomerOrder({ ...req.body, status: req.body.status || 'pending' });
+    await order.save();
+    res.json({ success: true, data: order });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
 });
 
-app.put('/api/customer-orders/:id', (req, res) => {
+app.put('/api/customer-orders/:id', async (req, res) => {
   try {
-    const db = readDatabase();
-    const index = db.customerOrders.findIndex(o => o.id === parseInt(req.params.id));
-    if (index === -1) return res.status(404).json({ success: false, message: 'Zakas topilmadi' });
-    db.customerOrders[index] = { ...db.customerOrders[index], ...req.body, updatedAt: new Date().toISOString() };
-    writeDatabase(db);
-    res.json({ success: true, data: db.customerOrders[index] });
+    const order = await CustomerOrder.findByIdAndUpdate(req.params.id, req.body, { new: true });
+    if (!order) return res.status(404).json({ success: false, message: 'Zakas topilmadi' });
+    res.json({ success: true, data: order });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
 });
 
-app.delete('/api/customer-orders/:id', (req, res) => {
+app.delete('/api/customer-orders/:id', async (req, res) => {
   try {
-    const db = readDatabase();
-    const index = db.customerOrders.findIndex(o => o.id === parseInt(req.params.id));
-    if (index === -1) return res.status(404).json({ success: false, message: 'Zakas topilmadi' });
-    const deleted = db.customerOrders.splice(index, 1);
-    writeDatabase(db);
-    res.json({ success: true, data: deleted[0] });
+    const order = await CustomerOrder.findByIdAndDelete(req.params.id);
+    if (!order) return res.status(404).json({ success: false, message: 'Zakas topilmadi' });
+    res.json({ success: true, data: order });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
 });
 
 // ==================== CUSTOMERS ====================
-app.get('/api/customers', (req, res) => {
+app.get('/api/customers', async (req, res) => {
   try {
-    const db = readDatabase();
-    const uniqueCustomers = [...new Set(db.orders.map(o => o.customer).filter(Boolean))];
-    res.json({ success: true, data: uniqueCustomers });
+    const customers = await Order.distinct('customer');
+    res.json({ success: true, data: customers.filter(Boolean) });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
 });
 
-app.get('/api/customers/search', (req, res) => {
+app.get('/api/customers/search', async (req, res) => {
   try {
-    const db = readDatabase();
-    const query = (req.query.q || '').toLowerCase();
+    const query = req.query.q || '';
     if (!query.trim()) return res.json({ success: true, data: [] });
-    const filtered = [...new Set(db.orders.map(o => o.customer).filter(Boolean))]
-      .filter(c => c.toLowerCase().includes(query))
-      .slice(0, 10);
-    res.json({ success: true, data: filtered });
+    const customers = await Order.distinct('customer', { customer: { $regex: query, $options: 'i' } });
+    res.json({ success: true, data: customers.filter(Boolean).slice(0, 10) });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
 });
 
 // ==================== STATS ====================
-app.get('/api/stats', (req, res) => {
+app.get('/api/stats', async (req, res) => {
   try {
-    const db = readDatabase();
-    res.json({
-      success: true,
-      data: {
-        totalProducts: db.products.length,
-        totalOrders: db.orders.length,
-        completedOrders: db.orders.filter(o => o.status === "Jo'natilgan").length,
-        pendingOrders: db.orders.filter(o => o.status === "Jo'natilmagan").length,
-        canceledOrders: db.orders.filter(o => o.status === 'Bekor qilindi').length,
-      }
-    });
+    const [totalProducts, totalOrders, completedOrders, pendingOrders, canceledOrders] = await Promise.all([
+      Product.countDocuments(),
+      Order.countDocuments(),
+      Order.countDocuments({ status: "Jo'natilgan" }),
+      Order.countDocuments({ status: "Jo'natilmagan" }),
+      Order.countDocuments({ status: 'Bekor qilindi' }),
+    ]);
+    res.json({ success: true, data: { totalProducts, totalOrders, completedOrders, pendingOrders, canceledOrders } });
   } catch (err) {
     res.status(500).json({ success: false, message: err.message });
   }
 });
 
 // ==================== HEALTH ====================
-app.get('/api/health', (req, res) => {
+app.get('/api/health', async (req, res) => {
   try {
-    const db = readDatabase();
-    res.json({
-      success: true,
-      message: 'Server ishlamoqda!',
-      database: 'database.json',
-      products: db.products.length,
-      orders: db.orders.length,
-      timestamp: new Date().toISOString()
-    });
+    const [products, orders] = await Promise.all([Product.countDocuments(), Order.countDocuments()]);
+    res.json({ success: true, message: 'Server ishlamoqda!', database: 'MongoDB Atlas', products, orders, timestamp: new Date().toISOString() });
   } catch (err) {
     res.status(500).json({ success: false, message: 'Database bilan muammo', error: err.message });
   }
@@ -328,20 +315,22 @@ app.use((req, res) => {
   res.status(404).json({ success: false, message: 'API endpoint topilmadi' });
 });
 
-// Start server
-app.listen(PORT, () => {
-  console.log(`
+// ==================== START ====================
+connectDB().then(() => {
+  app.listen(PORT, () => {
+    console.log(`
 ╔═══════════════════════════════════════════════════════╗
-║   Admin Panel Backend - JSON Database                 ║
+║   Admin Panel Backend - MongoDB Atlas                 ║
 ║                                                       ║
 ║   URL:      http://localhost:${PORT}                       ║
 ║   Swagger:  http://localhost:${PORT}/api-docs              ║
-║   Database: database.json                             ║
+║   Database: MongoDB Atlas (doimiy)                    ║
 ║                                                       ║
 ║   GET/POST/PUT/DELETE /api/products                   ║
 ║   GET/POST/PUT/DELETE /api/orders                     ║
 ║   GET/POST/PUT/DELETE /api/customer-orders            ║
 ║   GET                 /api/health                     ║
 ╚═══════════════════════════════════════════════════════╝
-  `);
+    `);
+  });
 });

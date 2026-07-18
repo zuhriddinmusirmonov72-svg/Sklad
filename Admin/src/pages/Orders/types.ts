@@ -1,19 +1,20 @@
 export type OrderStatus = "Jo'natilgan" | "Jo'natilmagan" | "Bekor qilindi";
 
 export interface Product {
-  id: number;
+  id: string;       // MongoDB _id
+  _id?: string;
   name: string;
   image: string;
   stock: number;
   price: number;
   category: string;
-  weight: number; // gramda
-  packQuantity: number; // quti ichida nechta dona
+  weight: number;
+  packQuantity: number;
 }
 
 export interface OrderLine {
-  id: number;
-  productId: number;
+  id: string | number;
+  productId: string;  // MongoDB _id
   name: string;
   image: string;
   qty: number;
@@ -22,7 +23,8 @@ export interface OrderLine {
 }
 
 export interface Order {
-  id: number;
+  id: string;       // MongoDB _id
+  _id?: string;
   orderNumber: string;
   customer: string;
   phone: string;
