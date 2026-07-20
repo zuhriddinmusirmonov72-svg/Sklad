@@ -1,0 +1,5234 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Ritter Sport White",
+      "category": "Shokolad",
+      "weight": 200,
+      "packQuantity": 30,
+      "price": 0.92,
+      "stock": 932,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400"
+    },
+    {
+      "id": 2,
+      "name": "Ferrero Rocher Caramel",
+      "category": "Shokolad",
+      "weight": 50,
+      "packQuantity": 40,
+      "price": 1.1,
+      "stock": 173,
+      "image": "https://images.unsplash.com/photo-1548848338-d4e4e5e0b735?w=400"
+    },
+    {
+      "id": 3,
+      "name": "Kinder White",
+      "category": "Shokolad",
+      "weight": 150,
+      "packQuantity": 20,
+      "price": 1.24,
+      "stock": 93,
+      "image": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=400",
+      "updatedAt": "2026-07-17T18:43:15.405Z"
+    },
+    {
+      "id": 4,
+      "name": "Mars Oreo",
+      "category": "Shokolad",
+      "weight": 200,
+      "packQuantity": 30,
+      "price": 0.57,
+      "stock": 698,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400",
+      "updatedAt": "2026-07-17T18:43:15.328Z"
+    },
+    {
+      "id": 5,
+      "name": "Toblerone White",
+      "category": "Shokolad",
+      "weight": 100,
+      "packQuantity": 36,
+      "price": 2.65,
+      "stock": 281,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400"
+    },
+    {
+      "id": 6,
+      "name": "Toblerone Caramel",
+      "category": "Shokolad",
+      "weight": 80,
+      "packQuantity": 12,
+      "price": 2.98,
+      "stock": 221,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400"
+    },
+    {
+      "id": 7,
+      "name": "Ferrero Rocher Peanut",
+      "category": "Shokolad",
+      "weight": 80,
+      "packQuantity": 20,
+      "price": 1.12,
+      "stock": 453,
+      "image": "https://images.unsplash.com/photo-1548848338-d4e4e5e0b735?w=400"
+    },
+    {
+      "id": 8,
+      "name": "Mars Peanut",
+      "category": "Shokolad",
+      "weight": 150,
+      "packQuantity": 48,
+      "price": 0.7,
+      "stock": 52,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400",
+      "updatedAt": "2026-07-17T18:43:15.260Z"
+    },
+    {
+      "id": 9,
+      "name": "Toblerone Hazelnut",
+      "category": "Shokolad",
+      "weight": 95,
+      "packQuantity": 18,
+      "price": 2.6,
+      "stock": 488,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400"
+    },
+    {
+      "id": 10,
+      "name": "Bounty Almond",
+      "category": "Shokolad",
+      "weight": 90,
+      "packQuantity": 48,
+      "price": 2.84,
+      "stock": 871,
+      "image": "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=400",
+      "updatedAt": "2026-07-17T18:43:15.292Z"
+    },
+    {
+      "id": 11,
+      "name": "Bounty Oreo",
+      "category": "Shokolad",
+      "weight": 50,
+      "packQuantity": 40,
+      "price": 0.66,
+      "stock": 633,
+      "image": "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=400"
+    },
+    {
+      "id": 12,
+      "name": "Mars White",
+      "category": "Shokolad",
+      "weight": 60,
+      "packQuantity": 18,
+      "price": 0.52,
+      "stock": 925,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400"
+    },
+    {
+      "id": 13,
+      "name": "Twix Peanut",
+      "category": "Shokolad",
+      "weight": 80,
+      "packQuantity": 30,
+      "price": 0.67,
+      "stock": 253,
+      "image": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=400",
+      "updatedAt": "2026-07-17T18:43:15.374Z"
+    },
+    {
+      "id": 14,
+      "name": "Kit Kat Classic",
+      "category": "Shokolad",
+      "weight": 60,
+      "packQuantity": 18,
+      "price": 1.6,
+      "stock": 875,
+      "image": "https://images.unsplash.com/photo-1606312619070-d48b4cdd0d59?w=400"
+    },
+    {
+      "id": 15,
+      "name": "Alpen Gold Oreo",
+      "category": "Shokolad",
+      "weight": 100,
+      "packQuantity": 48,
+      "price": 1.68,
+      "stock": 576,
+      "image": "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=400",
+      "updatedAt": "2026-07-17T18:43:15.309Z"
+    },
+    {
+      "id": 16,
+      "name": "Twix Crispy",
+      "category": "Shokolad",
+      "weight": 50,
+      "packQuantity": 36,
+      "price": 1.36,
+      "stock": 262,
+      "image": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=400"
+    },
+    {
+      "id": 17,
+      "name": "Bounty Almond",
+      "category": "Shokolad",
+      "weight": 50,
+      "packQuantity": 20,
+      "price": 2.38,
+      "stock": 795,
+      "image": "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=400"
+    },
+    {
+      "id": 18,
+      "name": "Kinder Crispy",
+      "category": "Shokolad",
+      "weight": 60,
+      "packQuantity": 20,
+      "price": 2.05,
+      "stock": 631,
+      "image": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=400"
+    },
+    {
+      "id": 19,
+      "name": "Snickers Dark",
+      "category": "Shokolad",
+      "weight": 150,
+      "packQuantity": 48,
+      "price": 2.79,
+      "stock": 829,
+      "image": "https://images.unsplash.com/photo-1604373750555-e0c8c68dd0d0?w=400"
+    },
+    {
+      "id": 20,
+      "name": "Kit Kat Hazelnut",
+      "category": "Shokolad",
+      "weight": 30,
+      "packQuantity": 40,
+      "price": 2.82,
+      "stock": 789,
+      "image": "https://images.unsplash.com/photo-1606312619070-d48b4cdd0d59?w=400"
+    },
+    {
+      "id": 21,
+      "name": "Ritter Sport Peanut",
+      "category": "Shokolad",
+      "weight": 150,
+      "packQuantity": 24,
+      "price": 1.97,
+      "stock": 979,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400"
+    },
+    {
+      "id": 22,
+      "name": "Kit Kat Caramel",
+      "category": "Shokolad",
+      "weight": 150,
+      "packQuantity": 12,
+      "price": 0.52,
+      "stock": 379,
+      "image": "https://images.unsplash.com/photo-1606312619070-d48b4cdd0d59?w=400",
+      "updatedAt": "2026-07-17T18:43:15.388Z"
+    },
+    {
+      "id": 23,
+      "name": "Bounty Dark",
+      "category": "Shokolad",
+      "weight": 200,
+      "packQuantity": 12,
+      "price": 1.28,
+      "stock": 547,
+      "image": "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=400"
+    },
+    {
+      "id": 24,
+      "name": "Ferrero Rocher Caramel",
+      "category": "Shokolad",
+      "weight": 95,
+      "packQuantity": 18,
+      "price": 2.41,
+      "stock": 509,
+      "image": "https://images.unsplash.com/photo-1548848338-d4e4e5e0b735?w=400"
+    },
+    {
+      "id": 25,
+      "name": "Milka Classic",
+      "category": "Shokolad",
+      "weight": 30,
+      "packQuantity": 18,
+      "price": 1.9,
+      "stock": 676,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400"
+    },
+    {
+      "id": 26,
+      "name": "Mars Classic",
+      "category": "Shokolad",
+      "weight": 95,
+      "packQuantity": 18,
+      "price": 1.8,
+      "stock": 180,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400"
+    },
+    {
+      "id": 27,
+      "name": "Ferrero Rocher Strawberry",
+      "category": "Shokolad",
+      "weight": 30,
+      "packQuantity": 48,
+      "price": 2.62,
+      "stock": 712,
+      "image": "https://images.unsplash.com/photo-1548848338-d4e4e5e0b735?w=400"
+    },
+    {
+      "id": 28,
+      "name": "Toblerone Almond",
+      "category": "Shokolad",
+      "weight": 150,
+      "packQuantity": 20,
+      "price": 1.51,
+      "stock": 753,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400"
+    },
+    {
+      "id": 29,
+      "name": "Lindt Dark",
+      "category": "Shokolad",
+      "weight": 80,
+      "packQuantity": 48,
+      "price": 2.39,
+      "stock": 307,
+      "image": "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=400"
+    },
+    {
+      "id": 30,
+      "name": "Bounty Caramel",
+      "category": "Shokolad",
+      "weight": 30,
+      "packQuantity": 24,
+      "price": 2.63,
+      "stock": 813,
+      "image": "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=400"
+    },
+    {
+      "id": 31,
+      "name": "Bounty Classic",
+      "category": "Shokolad",
+      "weight": 200,
+      "packQuantity": 40,
+      "price": 1.44,
+      "stock": 505,
+      "image": "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=400"
+    },
+    {
+      "id": 32,
+      "name": "Bounty Strawberry",
+      "category": "Shokolad",
+      "weight": 200,
+      "packQuantity": 48,
+      "price": 2.14,
+      "stock": 750,
+      "image": "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=400"
+    },
+    {
+      "id": 33,
+      "name": "Kinder Almond",
+      "category": "Shokolad",
+      "weight": 200,
+      "packQuantity": 18,
+      "price": 0.85,
+      "stock": 145,
+      "image": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=400"
+    },
+    {
+      "id": 34,
+      "name": "Kinder Caramel",
+      "category": "Shokolad",
+      "weight": 50,
+      "packQuantity": 40,
+      "price": 0.89,
+      "stock": 989,
+      "image": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=400"
+    },
+    {
+      "id": 35,
+      "name": "Toblerone Strawberry",
+      "category": "Shokolad",
+      "weight": 150,
+      "packQuantity": 12,
+      "price": 0.82,
+      "stock": 610,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400"
+    },
+    {
+      "id": 36,
+      "name": "Twix White",
+      "category": "Shokolad",
+      "weight": 30,
+      "packQuantity": 48,
+      "price": 1.65,
+      "stock": 483,
+      "image": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=400"
+    },
+    {
+      "id": 37,
+      "name": "Snickers Oreo",
+      "category": "Shokolad",
+      "weight": 40,
+      "packQuantity": 30,
+      "price": 1.64,
+      "stock": 251,
+      "image": "https://images.unsplash.com/photo-1604373750555-e0c8c68dd0d0?w=400"
+    },
+    {
+      "id": 38,
+      "name": "Ritter Sport Caramel",
+      "category": "Shokolad",
+      "weight": 30,
+      "packQuantity": 30,
+      "price": 1.65,
+      "stock": 946,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400"
+    },
+    {
+      "id": 39,
+      "name": "Ritter Sport Almond",
+      "category": "Shokolad",
+      "weight": 150,
+      "packQuantity": 20,
+      "price": 0.94,
+      "stock": 702,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400"
+    },
+    {
+      "id": 40,
+      "name": "Toblerone Strawberry",
+      "category": "Shokolad",
+      "weight": 90,
+      "packQuantity": 24,
+      "price": 2.05,
+      "stock": 259,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400"
+    },
+    {
+      "id": 41,
+      "name": "Ritter Sport Oreo",
+      "category": "Shokolad",
+      "weight": 30,
+      "packQuantity": 12,
+      "price": 1.32,
+      "stock": 572,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400"
+    },
+    {
+      "id": 42,
+      "name": "Toblerone Dark",
+      "category": "Shokolad",
+      "weight": 90,
+      "packQuantity": 20,
+      "price": 1.47,
+      "stock": 410,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400"
+    },
+    {
+      "id": 43,
+      "name": "Alpen Gold Strawberry",
+      "category": "Shokolad",
+      "weight": 95,
+      "packQuantity": 48,
+      "price": 2.07,
+      "stock": 979,
+      "image": "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=400"
+    },
+    {
+      "id": 44,
+      "name": "Twix White",
+      "category": "Shokolad",
+      "weight": 80,
+      "packQuantity": 48,
+      "price": 1.91,
+      "stock": 644,
+      "image": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=400"
+    },
+    {
+      "id": 45,
+      "name": "Toblerone Crispy",
+      "category": "Shokolad",
+      "weight": 50,
+      "packQuantity": 30,
+      "price": 2.03,
+      "stock": 444,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400"
+    },
+    {
+      "id": 46,
+      "name": "Alpen Gold Almond",
+      "category": "Shokolad",
+      "weight": 80,
+      "packQuantity": 30,
+      "price": 1.12,
+      "stock": 800,
+      "image": "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=400"
+    },
+    {
+      "id": 47,
+      "name": "Mars Almond",
+      "category": "Shokolad",
+      "weight": 95,
+      "packQuantity": 20,
+      "price": 1.16,
+      "stock": 107,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400"
+    },
+    {
+      "id": 48,
+      "name": "Milka Peanut",
+      "category": "Shokolad",
+      "weight": 200,
+      "packQuantity": 20,
+      "price": 1.06,
+      "stock": 204,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400"
+    },
+    {
+      "id": 49,
+      "name": "Twix Oreo",
+      "category": "Shokolad",
+      "weight": 90,
+      "packQuantity": 30,
+      "price": 2.49,
+      "stock": 437,
+      "image": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=400"
+    },
+    {
+      "id": 50,
+      "name": "Kit Kat Strawberry",
+      "category": "Shokolad",
+      "weight": 45,
+      "packQuantity": 20,
+      "price": 2.71,
+      "stock": 676,
+      "image": "https://images.unsplash.com/photo-1606312619070-d48b4cdd0d59?w=400"
+    },
+    {
+      "id": 51,
+      "name": "Kinder Dark",
+      "category": "Shokolad",
+      "weight": 150,
+      "packQuantity": 40,
+      "price": 2.43,
+      "stock": 467,
+      "image": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=400"
+    },
+    {
+      "id": 52,
+      "name": "Ferrero Rocher Classic",
+      "category": "Shokolad",
+      "weight": 45,
+      "packQuantity": 48,
+      "price": 1.53,
+      "stock": 477,
+      "image": "https://images.unsplash.com/photo-1548848338-d4e4e5e0b735?w=400"
+    },
+    {
+      "id": 53,
+      "name": "Twix Hazelnut",
+      "category": "Shokolad",
+      "weight": 60,
+      "packQuantity": 20,
+      "price": 1.85,
+      "stock": 576,
+      "image": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=400"
+    },
+    {
+      "id": 54,
+      "name": "Ritter Sport Crispy",
+      "category": "Shokolad",
+      "weight": 45,
+      "packQuantity": 20,
+      "price": 0.5,
+      "stock": 811,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400"
+    },
+    {
+      "id": 55,
+      "name": "Ritter Sport Strawberry",
+      "category": "Shokolad",
+      "weight": 45,
+      "packQuantity": 20,
+      "price": 1.69,
+      "stock": 901,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400"
+    },
+    {
+      "id": 56,
+      "name": "Toblerone Hazelnut",
+      "category": "Shokolad",
+      "weight": 45,
+      "packQuantity": 36,
+      "price": 2.42,
+      "stock": 386,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400"
+    },
+    {
+      "id": 57,
+      "name": "Milka Classic",
+      "category": "Shokolad",
+      "weight": 200,
+      "packQuantity": 12,
+      "price": 1.81,
+      "stock": 258,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400"
+    },
+    {
+      "id": 58,
+      "name": "Ferrero Rocher White",
+      "category": "Shokolad",
+      "weight": 60,
+      "packQuantity": 36,
+      "price": 1.33,
+      "stock": 448,
+      "image": "https://images.unsplash.com/photo-1548848338-d4e4e5e0b735?w=400"
+    },
+    {
+      "id": 59,
+      "name": "Mars Hazelnut",
+      "category": "Shokolad",
+      "weight": 50,
+      "packQuantity": 24,
+      "price": 2.39,
+      "stock": 546,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400"
+    },
+    {
+      "id": 60,
+      "name": "Ferrero Rocher Almond",
+      "category": "Shokolad",
+      "weight": 45,
+      "packQuantity": 24,
+      "price": 1.6,
+      "stock": 904,
+      "image": "https://images.unsplash.com/photo-1548848338-d4e4e5e0b735?w=400"
+    },
+    {
+      "id": 61,
+      "name": "Milka Classic",
+      "category": "Shokolad",
+      "weight": 150,
+      "packQuantity": 30,
+      "price": 0.91,
+      "stock": 742,
+      "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400"
+    },
+    {
+      "id": 62,
+      "name": "Twix Classic",
+      "category": "Shokolad",
+      "weight": 45,
+      "packQuantity": 20,
+      "price": 1.67,
+      "stock": 936,
+      "image": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=400"
+    },
+    {
+      "id": 63,
+      "name": "Lindt Crispy",
+      "category": "Shokolad",
+      "weight": 60,
+      "packQuantity": 48,
+      "price": 2.08,
+      "stock": 198,
+      "image": "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=400"
+    },
+    {
+      "id": 64,
+      "name": "Sprite Max",
+      "category": "Ichimlik",
+      "weight": 250,
+      "packQuantity": 12,
+      "price": 1.13,
+      "stock": 999,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 65,
+      "name": "Coca Cola Vanilla",
+      "category": "Ichimlik",
+      "weight": 2000,
+      "packQuantity": 12,
+      "price": 1.95,
+      "stock": 299,
+      "image": "https://images.unsplash.com/photo-1554866585-cd94860890b7?w=400"
+    },
+    {
+      "id": 66,
+      "name": "Schweppes Orange",
+      "category": "Ichimlik",
+      "weight": 500,
+      "packQuantity": 36,
+      "price": 0.81,
+      "stock": 994,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 67,
+      "name": "Schweppes Max",
+      "category": "Ichimlik",
+      "weight": 330,
+      "packQuantity": 24,
+      "price": 1.29,
+      "stock": 833,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 68,
+      "name": "7UP Cherry",
+      "category": "Ichimlik",
+      "weight": 2000,
+      "packQuantity": 36,
+      "price": 1.22,
+      "stock": 991,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 69,
+      "name": "Schweppes Grape",
+      "category": "Ichimlik",
+      "weight": 1500,
+      "packQuantity": 36,
+      "price": 1.59,
+      "stock": 627,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 70,
+      "name": "Mirinda Vanilla",
+      "category": "Ichimlik",
+      "weight": 2000,
+      "packQuantity": 24,
+      "price": 2.18,
+      "stock": 177,
+      "image": "https://images.unsplash.com/photo-1624517452488-04869289c4ca?w=400"
+    },
+    {
+      "id": 71,
+      "name": "Dr Pepper Lemon",
+      "category": "Ichimlik",
+      "weight": 1000,
+      "packQuantity": 24,
+      "price": 1.24,
+      "stock": 0,
+      "image": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400",
+      "updatedAt": "2026-07-17T11:56:17.175Z"
+    },
+    {
+      "id": 72,
+      "name": "Fanta Max",
+      "category": "Ichimlik",
+      "weight": 330,
+      "packQuantity": 12,
+      "price": 0.54,
+      "stock": 541,
+      "image": "https://images.unsplash.com/photo-1624517452488-04869289c4ca?w=400"
+    },
+    {
+      "id": 73,
+      "name": "Sprite Grape",
+      "category": "Ichimlik",
+      "weight": 1000,
+      "packQuantity": 36,
+      "price": 2.04,
+      "stock": 937,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 74,
+      "name": "Pepsi Cherry",
+      "category": "Ichimlik",
+      "weight": 1500,
+      "packQuantity": 36,
+      "price": 1.81,
+      "stock": 428,
+      "image": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400",
+      "updatedAt": "2026-07-17T18:43:15.344Z"
+    },
+    {
+      "id": 75,
+      "name": "Mirinda Vanilla",
+      "category": "Ichimlik",
+      "weight": 1000,
+      "packQuantity": 12,
+      "price": 0.89,
+      "stock": 897,
+      "image": "https://images.unsplash.com/photo-1624517452488-04869289c4ca?w=400"
+    },
+    {
+      "id": 76,
+      "name": "7UP Max",
+      "category": "Ichimlik",
+      "weight": 2000,
+      "packQuantity": 24,
+      "price": 0.81,
+      "stock": 919,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 77,
+      "name": "Schweppes Grape",
+      "category": "Ichimlik",
+      "weight": 1000,
+      "packQuantity": 24,
+      "price": 1.66,
+      "stock": 685,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 78,
+      "name": "Sprite Light",
+      "category": "Ichimlik",
+      "weight": 330,
+      "packQuantity": 24,
+      "price": 1.72,
+      "stock": 724,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 79,
+      "name": "Mirinda Cherry",
+      "category": "Ichimlik",
+      "weight": 1000,
+      "packQuantity": 36,
+      "price": 0.83,
+      "stock": 277,
+      "image": "https://images.unsplash.com/photo-1624517452488-04869289c4ca?w=400"
+    },
+    {
+      "id": 80,
+      "name": "Mirinda Zero",
+      "category": "Ichimlik",
+      "weight": 1000,
+      "packQuantity": 36,
+      "price": 2.03,
+      "stock": 288,
+      "image": "https://images.unsplash.com/photo-1624517452488-04869289c4ca?w=400"
+    },
+    {
+      "id": 81,
+      "name": "Sprite Max",
+      "category": "Ichimlik",
+      "weight": 500,
+      "packQuantity": 12,
+      "price": 1.77,
+      "stock": 267,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 82,
+      "name": "Schweppes Grape",
+      "category": "Ichimlik",
+      "weight": 330,
+      "packQuantity": 24,
+      "price": 1.26,
+      "stock": 758,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 83,
+      "name": "Dr Pepper Zero",
+      "category": "Ichimlik",
+      "weight": 330,
+      "packQuantity": 24,
+      "price": 2.17,
+      "stock": 698,
+      "image": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400"
+    },
+    {
+      "id": 84,
+      "name": "Schweppes Classic",
+      "category": "Ichimlik",
+      "weight": 1500,
+      "packQuantity": 36,
+      "price": 1.68,
+      "stock": 718,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 85,
+      "name": "Dr Pepper Lemon",
+      "category": "Ichimlik",
+      "weight": 1500,
+      "packQuantity": 24,
+      "price": 0.7,
+      "stock": 778,
+      "image": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400"
+    },
+    {
+      "id": 86,
+      "name": "Fanta Cherry",
+      "category": "Ichimlik",
+      "weight": 1000,
+      "packQuantity": 24,
+      "price": 2.4,
+      "stock": 102,
+      "image": "https://images.unsplash.com/photo-1624517452488-04869289c4ca?w=400"
+    },
+    {
+      "id": 87,
+      "name": "7UP Orange",
+      "category": "Ichimlik",
+      "weight": 250,
+      "packQuantity": 24,
+      "price": 0.52,
+      "stock": 827,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 88,
+      "name": "Fanta Light",
+      "category": "Ichimlik",
+      "weight": 1500,
+      "packQuantity": 12,
+      "price": 1.5,
+      "stock": 576,
+      "image": "https://images.unsplash.com/photo-1624517452488-04869289c4ca?w=400"
+    },
+    {
+      "id": 89,
+      "name": "Dr Pepper Max",
+      "category": "Ichimlik",
+      "weight": 250,
+      "packQuantity": 12,
+      "price": 1.17,
+      "stock": 406,
+      "image": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400"
+    },
+    {
+      "id": 90,
+      "name": "Schweppes Vanilla",
+      "category": "Ichimlik",
+      "weight": 1500,
+      "packQuantity": 24,
+      "price": 1.19,
+      "stock": 114,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 91,
+      "name": "Dr Pepper Grape",
+      "category": "Ichimlik",
+      "weight": 1000,
+      "packQuantity": 24,
+      "price": 1.99,
+      "stock": 949,
+      "image": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400"
+    },
+    {
+      "id": 92,
+      "name": "Coca Cola Lemon",
+      "category": "Ichimlik",
+      "weight": 330,
+      "packQuantity": 36,
+      "price": 2.03,
+      "stock": 620,
+      "image": "https://images.unsplash.com/photo-1554866585-cd94860890b7?w=400"
+    },
+    {
+      "id": 93,
+      "name": "Sprite Grape",
+      "category": "Ichimlik",
+      "weight": 330,
+      "packQuantity": 12,
+      "price": 0.61,
+      "stock": 398,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 94,
+      "name": "Mirinda Max",
+      "category": "Ichimlik",
+      "weight": 330,
+      "packQuantity": 24,
+      "price": 0.64,
+      "stock": 552,
+      "image": "https://images.unsplash.com/photo-1624517452488-04869289c4ca?w=400"
+    },
+    {
+      "id": 95,
+      "name": "Dr Pepper Cherry",
+      "category": "Ichimlik",
+      "weight": 1500,
+      "packQuantity": 12,
+      "price": 2.14,
+      "stock": 242,
+      "image": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400"
+    },
+    {
+      "id": 96,
+      "name": "Coca Cola Grape",
+      "category": "Ichimlik",
+      "weight": 330,
+      "packQuantity": 24,
+      "price": 2.45,
+      "stock": 823,
+      "image": "https://images.unsplash.com/photo-1554866585-cd94860890b7?w=400"
+    },
+    {
+      "id": 97,
+      "name": "Mirinda Max",
+      "category": "Ichimlik",
+      "weight": 330,
+      "packQuantity": 24,
+      "price": 0.72,
+      "stock": 388,
+      "image": "https://images.unsplash.com/photo-1624517452488-04869289c4ca?w=400"
+    },
+    {
+      "id": 98,
+      "name": "Pepsi Lemon",
+      "category": "Ichimlik",
+      "weight": 2000,
+      "packQuantity": 24,
+      "price": 2.09,
+      "stock": 435,
+      "image": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400",
+      "updatedAt": "2026-07-17T18:43:15.359Z"
+    },
+    {
+      "id": 99,
+      "name": "Pepsi Orange",
+      "category": "Ichimlik",
+      "weight": 500,
+      "packQuantity": 12,
+      "price": 1.9,
+      "stock": 807,
+      "image": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400"
+    },
+    {
+      "id": 100,
+      "name": "7UP Light",
+      "category": "Ichimlik",
+      "weight": 2000,
+      "packQuantity": 12,
+      "price": 1.72,
+      "stock": 169,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 101,
+      "name": "Fanta Classic",
+      "category": "Ichimlik",
+      "weight": 1500,
+      "packQuantity": 36,
+      "price": 1.18,
+      "stock": 318,
+      "image": "https://images.unsplash.com/photo-1624517452488-04869289c4ca?w=400"
+    },
+    {
+      "id": 102,
+      "name": "Coca Cola Vanilla",
+      "category": "Ichimlik",
+      "weight": 500,
+      "packQuantity": 24,
+      "price": 1.91,
+      "stock": 809,
+      "image": "https://images.unsplash.com/photo-1554866585-cd94860890b7?w=400"
+    },
+    {
+      "id": 103,
+      "name": "Schweppes Cherry",
+      "category": "Ichimlik",
+      "weight": 1000,
+      "packQuantity": 36,
+      "price": 2.47,
+      "stock": 318,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 104,
+      "name": "Dr Pepper Vanilla",
+      "category": "Ichimlik",
+      "weight": 1000,
+      "packQuantity": 36,
+      "price": 2.19,
+      "stock": 729,
+      "image": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400"
+    },
+    {
+      "id": 105,
+      "name": "7UP Classic",
+      "category": "Ichimlik",
+      "weight": 1500,
+      "packQuantity": 36,
+      "price": 0.76,
+      "stock": 410,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 106,
+      "name": "Sprite Zero",
+      "category": "Ichimlik",
+      "weight": 1000,
+      "packQuantity": 36,
+      "price": 1.5,
+      "stock": 560,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 107,
+      "name": "7UP Orange",
+      "category": "Ichimlik",
+      "weight": 250,
+      "packQuantity": 36,
+      "price": 0.75,
+      "stock": 491,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 108,
+      "name": "Dr Pepper Orange",
+      "category": "Ichimlik",
+      "weight": 500,
+      "packQuantity": 12,
+      "price": 2.49,
+      "stock": 854,
+      "image": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400"
+    },
+    {
+      "id": 109,
+      "name": "Schweppes Lemon",
+      "category": "Ichimlik",
+      "weight": 330,
+      "packQuantity": 36,
+      "price": 1.11,
+      "stock": 613,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 110,
+      "name": "Schweppes Light",
+      "category": "Ichimlik",
+      "weight": 500,
+      "packQuantity": 36,
+      "price": 0.46,
+      "stock": 641,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 111,
+      "name": "Fanta Light",
+      "category": "Ichimlik",
+      "weight": 500,
+      "packQuantity": 24,
+      "price": 2.04,
+      "stock": 379,
+      "image": "https://images.unsplash.com/photo-1624517452488-04869289c4ca?w=400"
+    },
+    {
+      "id": 112,
+      "name": "Pepsi Light",
+      "category": "Ichimlik",
+      "weight": 330,
+      "packQuantity": 24,
+      "price": 2.43,
+      "stock": 220,
+      "image": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400"
+    },
+    {
+      "id": 113,
+      "name": "7UP Cherry",
+      "category": "Ichimlik",
+      "weight": 1500,
+      "packQuantity": 36,
+      "price": 1.32,
+      "stock": 292,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 114,
+      "name": "Sprite Orange",
+      "category": "Ichimlik",
+      "weight": 1000,
+      "packQuantity": 12,
+      "price": 2.13,
+      "stock": 361,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 115,
+      "name": "Sprite Light",
+      "category": "Ichimlik",
+      "weight": 1000,
+      "packQuantity": 24,
+      "price": 1.73,
+      "stock": 423,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 116,
+      "name": "Schweppes Lemon",
+      "category": "Ichimlik",
+      "weight": 250,
+      "packQuantity": 24,
+      "price": 0.97,
+      "stock": 920,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 117,
+      "name": "Schweppes Classic",
+      "category": "Ichimlik",
+      "weight": 330,
+      "packQuantity": 12,
+      "price": 0.45,
+      "stock": 282,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 118,
+      "name": "Coca Cola Max",
+      "category": "Ichimlik",
+      "weight": 1000,
+      "packQuantity": 36,
+      "price": 1.38,
+      "stock": 968,
+      "image": "https://images.unsplash.com/photo-1554866585-cd94860890b7?w=400"
+    },
+    {
+      "id": 119,
+      "name": "Mirinda Max",
+      "category": "Ichimlik",
+      "weight": 2000,
+      "packQuantity": 12,
+      "price": 0.41,
+      "stock": 236,
+      "image": "https://images.unsplash.com/photo-1624517452488-04869289c4ca?w=400"
+    },
+    {
+      "id": 120,
+      "name": "Mirinda Classic",
+      "category": "Ichimlik",
+      "weight": 500,
+      "packQuantity": 24,
+      "price": 0.78,
+      "stock": 668,
+      "image": "https://images.unsplash.com/photo-1624517452488-04869289c4ca?w=400"
+    },
+    {
+      "id": 121,
+      "name": "Dr Pepper Vanilla",
+      "category": "Ichimlik",
+      "weight": 1500,
+      "packQuantity": 12,
+      "price": 0.77,
+      "stock": 679,
+      "image": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400"
+    },
+    {
+      "id": 122,
+      "name": "Sprite Grape",
+      "category": "Ichimlik",
+      "weight": 1500,
+      "packQuantity": 36,
+      "price": 1.72,
+      "stock": 169,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 123,
+      "name": "Sprite Zero",
+      "category": "Ichimlik",
+      "weight": 2000,
+      "packQuantity": 12,
+      "price": 2.13,
+      "stock": 127,
+      "image": "https://images.unsplash.com/photo-1629203849648-e155f6e8d4ea?w=400"
+    },
+    {
+      "id": 124,
+      "name": "Pepsi Orange",
+      "category": "Ichimlik",
+      "weight": 1000,
+      "packQuantity": 24,
+      "price": 1.17,
+      "stock": 503,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdZYBXDjAXEAgT8DbulrQCyiqsR76LKfiyTgOUpoB5rA&s=10",
+      "updatedAt": "2026-07-17T10:02:31.379Z"
+    },
+    {
+      "id": 125,
+      "name": "Mirinda Cherry",
+      "category": "Ichimlik",
+      "weight": 1500,
+      "packQuantity": 24,
+      "price": 1.48,
+      "stock": 186,
+      "image": "https://images.unsplash.com/photo-1624517452488-04869289c4ca?w=400"
+    },
+    {
+      "id": 126,
+      "name": "Mirinda Max",
+      "category": "Ichimlik",
+      "weight": 250,
+      "packQuantity": 36,
+      "price": 0.8,
+      "stock": 553,
+      "image": "https://images.unsplash.com/photo-1624517452488-04869289c4ca?w=400"
+    },
+    {
+      "id": 127,
+      "name": "Battery Tropical",
+      "category": "Energetik",
+      "weight": 500,
+      "packQuantity": 24,
+      "price": 3.23,
+      "stock": 852,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 128,
+      "name": "Rockstar Blue",
+      "category": "Energetik",
+      "weight": 500,
+      "packQuantity": 12,
+      "price": 2.74,
+      "stock": 133,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 129,
+      "name": "Red Bull Original",
+      "category": "Energetik",
+      "weight": 500,
+      "packQuantity": 24,
+      "price": 2.15,
+      "stock": 819,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 130,
+      "name": "Burn Blue",
+      "category": "Energetik",
+      "weight": 500,
+      "packQuantity": 12,
+      "price": 2.97,
+      "stock": 851,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 131,
+      "name": "Red Bull Ultra",
+      "category": "Energetik",
+      "weight": 330,
+      "packQuantity": 24,
+      "price": 2.55,
+      "stock": 438,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 132,
+      "name": "Battery Green",
+      "category": "Energetik",
+      "weight": 330,
+      "packQuantity": 12,
+      "price": 2.49,
+      "stock": 308,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 133,
+      "name": "Battery Sugar Free",
+      "category": "Energetik",
+      "weight": 250,
+      "packQuantity": 24,
+      "price": 3.09,
+      "stock": 407,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 134,
+      "name": "Monster Zero",
+      "category": "Energetik",
+      "weight": 250,
+      "packQuantity": 12,
+      "price": 3.39,
+      "stock": 987,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 135,
+      "name": "Red Bull Original",
+      "category": "Energetik",
+      "weight": 330,
+      "packQuantity": 24,
+      "price": 2.17,
+      "stock": 372,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 136,
+      "name": "Battery Sugar Free",
+      "category": "Energetik",
+      "weight": 500,
+      "packQuantity": 12,
+      "price": 3.48,
+      "stock": 308,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 137,
+      "name": "Battery Green",
+      "category": "Energetik",
+      "weight": 250,
+      "packQuantity": 24,
+      "price": 2.06,
+      "stock": 964,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 138,
+      "name": "Red Bull Green",
+      "category": "Energetik",
+      "weight": 330,
+      "packQuantity": 12,
+      "price": 2.45,
+      "stock": 272,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 139,
+      "name": "Red Bull Zero",
+      "category": "Energetik",
+      "weight": 500,
+      "packQuantity": 12,
+      "price": 2.67,
+      "stock": 872,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 140,
+      "name": "Burn Sugar Free",
+      "category": "Energetik",
+      "weight": 250,
+      "packQuantity": 12,
+      "price": 2.15,
+      "stock": 476,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 141,
+      "name": "Battery Zero",
+      "category": "Energetik",
+      "weight": 330,
+      "packQuantity": 12,
+      "price": 2.78,
+      "stock": 699,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 142,
+      "name": "Monster Original",
+      "category": "Energetik",
+      "weight": 500,
+      "packQuantity": 12,
+      "price": 3.41,
+      "stock": 438,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 143,
+      "name": "Adrenaline Rush Original",
+      "category": "Energetik",
+      "weight": 500,
+      "packQuantity": 12,
+      "price": 2.52,
+      "stock": 373,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 144,
+      "name": "Rockstar Sugar Free",
+      "category": "Energetik",
+      "weight": 500,
+      "packQuantity": 12,
+      "price": 3.03,
+      "stock": 869,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 145,
+      "name": "Red Bull Zero",
+      "category": "Energetik",
+      "weight": 250,
+      "packQuantity": 12,
+      "price": 3.45,
+      "stock": 180,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 146,
+      "name": "Burn Zero",
+      "category": "Energetik",
+      "weight": 500,
+      "packQuantity": 12,
+      "price": 2.29,
+      "stock": 509,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 147,
+      "name": "Burn Green",
+      "category": "Energetik",
+      "weight": 250,
+      "packQuantity": 24,
+      "price": 3.07,
+      "stock": 316,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 148,
+      "name": "Monster Tropical",
+      "category": "Energetik",
+      "weight": 500,
+      "packQuantity": 12,
+      "price": 2.91,
+      "stock": 452,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 149,
+      "name": "Red Bull Tropical",
+      "category": "Energetik",
+      "weight": 330,
+      "packQuantity": 24,
+      "price": 3.46,
+      "stock": 113,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 150,
+      "name": "Monster Green",
+      "category": "Energetik",
+      "weight": 500,
+      "packQuantity": 24,
+      "price": 2.78,
+      "stock": 692,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 151,
+      "name": "Red Bull Sugar Free",
+      "category": "Energetik",
+      "weight": 330,
+      "packQuantity": 12,
+      "price": 2.81,
+      "stock": 568,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 152,
+      "name": "Burn Green",
+      "category": "Energetik",
+      "weight": 500,
+      "packQuantity": 24,
+      "price": 3.42,
+      "stock": 461,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 153,
+      "name": "Adrenaline Rush Sugar Free",
+      "category": "Energetik",
+      "weight": 500,
+      "packQuantity": 12,
+      "price": 2.25,
+      "stock": 601,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 154,
+      "name": "Monster Blue",
+      "category": "Energetik",
+      "weight": 250,
+      "packQuantity": 12,
+      "price": 3.22,
+      "stock": 443,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 155,
+      "name": "Monster Original",
+      "category": "Energetik",
+      "weight": 500,
+      "packQuantity": 12,
+      "price": 2.49,
+      "stock": 441,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 156,
+      "name": "Monster Green",
+      "category": "Energetik",
+      "weight": 250,
+      "packQuantity": 24,
+      "price": 2.44,
+      "stock": 788,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 157,
+      "name": "Red Bull Sugar Free",
+      "category": "Energetik",
+      "weight": 250,
+      "packQuantity": 12,
+      "price": 2.81,
+      "stock": 839,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 158,
+      "name": "Burn Tropical",
+      "category": "Energetik",
+      "weight": 250,
+      "packQuantity": 24,
+      "price": 3.26,
+      "stock": 222,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 159,
+      "name": "Red Bull Green",
+      "category": "Energetik",
+      "weight": 500,
+      "packQuantity": 12,
+      "price": 2.54,
+      "stock": 428,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 160,
+      "name": "Rockstar Tropical",
+      "category": "Energetik",
+      "weight": 250,
+      "packQuantity": 12,
+      "price": 3.15,
+      "stock": 398,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 161,
+      "name": "Monster Original",
+      "category": "Energetik",
+      "weight": 500,
+      "packQuantity": 12,
+      "price": 2.03,
+      "stock": 322,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 162,
+      "name": "Red Bull Sugar Free",
+      "category": "Energetik",
+      "weight": 500,
+      "packQuantity": 12,
+      "price": 2.32,
+      "stock": 940,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 163,
+      "name": "Monster Sugar Free",
+      "category": "Energetik",
+      "weight": 330,
+      "packQuantity": 24,
+      "price": 2.93,
+      "stock": 147,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 164,
+      "name": "Burn Original",
+      "category": "Energetik",
+      "weight": 500,
+      "packQuantity": 24,
+      "price": 2.99,
+      "stock": 503,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 165,
+      "name": "Rockstar Green",
+      "category": "Energetik",
+      "weight": 330,
+      "packQuantity": 24,
+      "price": 3.15,
+      "stock": 524,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 166,
+      "name": "Burn Ultra",
+      "category": "Energetik",
+      "weight": 500,
+      "packQuantity": 24,
+      "price": 2.22,
+      "stock": 187,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 167,
+      "name": "Red Bull Original",
+      "category": "Energetik",
+      "weight": 500,
+      "packQuantity": 12,
+      "price": 2.87,
+      "stock": 934,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 168,
+      "name": "Battery Blue",
+      "category": "Energetik",
+      "weight": 250,
+      "packQuantity": 24,
+      "price": 2.84,
+      "stock": 725,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 169,
+      "name": "Monster Green",
+      "category": "Energetik",
+      "weight": 250,
+      "packQuantity": 12,
+      "price": 3.16,
+      "stock": 212,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 170,
+      "name": "Monster Zero",
+      "category": "Energetik",
+      "weight": 500,
+      "packQuantity": 24,
+      "price": 3.19,
+      "stock": 609,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 171,
+      "name": "Burn Green",
+      "category": "Energetik",
+      "weight": 250,
+      "packQuantity": 12,
+      "price": 2.5,
+      "stock": 337,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 172,
+      "name": "Battery Blue",
+      "category": "Energetik",
+      "weight": 250,
+      "packQuantity": 12,
+      "price": 3.47,
+      "stock": 614,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 173,
+      "name": "Battery Green",
+      "category": "Energetik",
+      "weight": 250,
+      "packQuantity": 24,
+      "price": 2.84,
+      "stock": 299,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 174,
+      "name": "Burn Ultra",
+      "category": "Energetik",
+      "weight": 250,
+      "packQuantity": 12,
+      "price": 3.05,
+      "stock": 986,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 175,
+      "name": "Rockstar Zero",
+      "category": "Energetik",
+      "weight": 500,
+      "packQuantity": 12,
+      "price": 3.45,
+      "stock": 109,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 176,
+      "name": "Battery Tropical",
+      "category": "Energetik",
+      "weight": 330,
+      "packQuantity": 24,
+      "price": 3.08,
+      "stock": 820,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 177,
+      "name": "Adrenaline Rush Sugar Free",
+      "category": "Energetik",
+      "weight": 250,
+      "packQuantity": 12,
+      "price": 2.31,
+      "stock": 157,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 178,
+      "name": "Battery Ultra",
+      "category": "Energetik",
+      "weight": 250,
+      "packQuantity": 12,
+      "price": 2.81,
+      "stock": 326,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 179,
+      "name": "Monster Green",
+      "category": "Energetik",
+      "weight": 500,
+      "packQuantity": 24,
+      "price": 3.35,
+      "stock": 391,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 180,
+      "name": "Adrenaline Rush Original",
+      "category": "Energetik",
+      "weight": 330,
+      "packQuantity": 24,
+      "price": 2.19,
+      "stock": 888,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 181,
+      "name": "Adrenaline Rush Original",
+      "category": "Energetik",
+      "weight": 330,
+      "packQuantity": 24,
+      "price": 3.18,
+      "stock": 791,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 182,
+      "name": "Burn Green",
+      "category": "Energetik",
+      "weight": 330,
+      "packQuantity": 12,
+      "price": 3.13,
+      "stock": 420,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 183,
+      "name": "Red Bull Ultra",
+      "category": "Energetik",
+      "weight": 330,
+      "packQuantity": 24,
+      "price": 2.8,
+      "stock": 819,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 184,
+      "name": "Red Bull Sugar Free",
+      "category": "Energetik",
+      "weight": 250,
+      "packQuantity": 24,
+      "price": 3.3,
+      "stock": 976,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 185,
+      "name": "Battery Ultra",
+      "category": "Energetik",
+      "weight": 330,
+      "packQuantity": 12,
+      "price": 2.3,
+      "stock": 509,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 186,
+      "name": "Adrenaline Rush Ultra",
+      "category": "Energetik",
+      "weight": 500,
+      "packQuantity": 24,
+      "price": 2.12,
+      "stock": 772,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 187,
+      "name": "Adrenaline Rush Green",
+      "category": "Energetik",
+      "weight": 250,
+      "packQuantity": 12,
+      "price": 2.4,
+      "stock": 308,
+      "image": "https://images.unsplash.com/photo-1591768793355-74d04bb6608f?w=400"
+    },
+    {
+      "id": 188,
+      "name": "Burn Green",
+      "category": "Energetik",
+      "weight": 330,
+      "packQuantity": 12,
+      "price": 2.56,
+      "stock": 817,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 189,
+      "name": "Burn Tropical",
+      "category": "Energetik",
+      "weight": 250,
+      "packQuantity": 24,
+      "price": 3.31,
+      "stock": 132,
+      "image": "https://images.unsplash.com/photo-1622543925917-763c34f1f86a?w=400"
+    },
+    {
+      "id": 190,
+      "name": "Evian Sparkling",
+      "category": "Suv",
+      "weight": 330,
+      "packQuantity": 6,
+      "price": 1.04,
+      "stock": 160,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 191,
+      "name": "Evian Mint",
+      "category": "Suv",
+      "weight": 5000,
+      "packQuantity": 24,
+      "price": 0.41,
+      "stock": 984,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 192,
+      "name": "Vittel Lemon",
+      "category": "Suv",
+      "weight": 330,
+      "packQuantity": 36,
+      "price": 1.65,
+      "stock": 807,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 193,
+      "name": "Perrier Still",
+      "category": "Suv",
+      "weight": 1500,
+      "packQuantity": 6,
+      "price": 0.42,
+      "stock": 597,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 194,
+      "name": "Bon Aqua Mint",
+      "category": "Suv",
+      "weight": 1000,
+      "packQuantity": 12,
+      "price": 0.61,
+      "stock": 148,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 195,
+      "name": "Aqua Lemon",
+      "category": "Suv",
+      "weight": 1000,
+      "packQuantity": 24,
+      "price": 0.97,
+      "stock": 130,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 196,
+      "name": "Perrier Lemon",
+      "category": "Suv",
+      "weight": 1000,
+      "packQuantity": 24,
+      "price": 1.88,
+      "stock": 446,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 197,
+      "name": "Nestle Pure Life Sparkling",
+      "category": "Suv",
+      "weight": 330,
+      "packQuantity": 24,
+      "price": 1.78,
+      "stock": 783,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 198,
+      "name": "Perrier Lemon",
+      "category": "Suv",
+      "weight": 330,
+      "packQuantity": 24,
+      "price": 0.87,
+      "stock": 568,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 199,
+      "name": "Nestle Pure Life Still",
+      "category": "Suv",
+      "weight": 330,
+      "packQuantity": 12,
+      "price": 1.4,
+      "stock": 545,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 200,
+      "name": "Bon Aqua Mint",
+      "category": "Suv",
+      "weight": 5000,
+      "packQuantity": 6,
+      "price": 0.31,
+      "stock": 476,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 201,
+      "name": "Nestle Pure Life Lemon",
+      "category": "Suv",
+      "weight": 5000,
+      "packQuantity": 6,
+      "price": 1.89,
+      "stock": 645,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 202,
+      "name": "Evian Still",
+      "category": "Suv",
+      "weight": 1000,
+      "packQuantity": 24,
+      "price": 0.82,
+      "stock": 995,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 203,
+      "name": "Evian Lemon",
+      "category": "Suv",
+      "weight": 500,
+      "packQuantity": 24,
+      "price": 1.88,
+      "stock": 251,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 204,
+      "name": "Nestle Pure Life Lemon",
+      "category": "Suv",
+      "weight": 1500,
+      "packQuantity": 36,
+      "price": 1.23,
+      "stock": 699,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 205,
+      "name": "Vittel Sparkling",
+      "category": "Suv",
+      "weight": 1500,
+      "packQuantity": 6,
+      "price": 0.65,
+      "stock": 528,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 206,
+      "name": "Nestle Pure Life Lemon",
+      "category": "Suv",
+      "weight": 5000,
+      "packQuantity": 24,
+      "price": 0.37,
+      "stock": 544,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 207,
+      "name": "Perrier Mint",
+      "category": "Suv",
+      "weight": 500,
+      "packQuantity": 6,
+      "price": 1.83,
+      "stock": 240,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 208,
+      "name": "Nestle Pure Life Mint",
+      "category": "Suv",
+      "weight": 500,
+      "packQuantity": 6,
+      "price": 1.7,
+      "stock": 687,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 209,
+      "name": "Aqua Mint",
+      "category": "Suv",
+      "weight": 1500,
+      "packQuantity": 12,
+      "price": 1.52,
+      "stock": 580,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 210,
+      "name": "Perrier Lemon",
+      "category": "Suv",
+      "weight": 1500,
+      "packQuantity": 24,
+      "price": 1.94,
+      "stock": 746,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 211,
+      "name": "Aqua Lemon",
+      "category": "Suv",
+      "weight": 1500,
+      "packQuantity": 6,
+      "price": 0.97,
+      "stock": 121,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 212,
+      "name": "Vittel Mint",
+      "category": "Suv",
+      "weight": 5000,
+      "packQuantity": 36,
+      "price": 1.2,
+      "stock": 766,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 213,
+      "name": "Evian Mint",
+      "category": "Suv",
+      "weight": 5000,
+      "packQuantity": 24,
+      "price": 1.23,
+      "stock": 899,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 214,
+      "name": "Evian Sparkling",
+      "category": "Suv",
+      "weight": 1000,
+      "packQuantity": 24,
+      "price": 1.03,
+      "stock": 806,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 215,
+      "name": "San Pellegrino Sparkling",
+      "category": "Suv",
+      "weight": 500,
+      "packQuantity": 6,
+      "price": 0.39,
+      "stock": 611,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 216,
+      "name": "Bon Aqua Still",
+      "category": "Suv",
+      "weight": 500,
+      "packQuantity": 6,
+      "price": 1.12,
+      "stock": 500,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 217,
+      "name": "Evian Sparkling",
+      "category": "Suv",
+      "weight": 500,
+      "packQuantity": 12,
+      "price": 1,
+      "stock": 163,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 218,
+      "name": "Nestle Pure Life Sparkling",
+      "category": "Suv",
+      "weight": 1000,
+      "packQuantity": 6,
+      "price": 0.84,
+      "stock": 202,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 219,
+      "name": "Nestle Pure Life Lemon",
+      "category": "Suv",
+      "weight": 1500,
+      "packQuantity": 24,
+      "price": 1.52,
+      "stock": 447,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 220,
+      "name": "Evian Sparkling",
+      "category": "Suv",
+      "weight": 5000,
+      "packQuantity": 6,
+      "price": 0.65,
+      "stock": 856,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 221,
+      "name": "Vittel Sparkling",
+      "category": "Suv",
+      "weight": 1500,
+      "packQuantity": 6,
+      "price": 0.82,
+      "stock": 111,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 222,
+      "name": "Vittel Mint",
+      "category": "Suv",
+      "weight": 5000,
+      "packQuantity": 36,
+      "price": 1.44,
+      "stock": 611,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 223,
+      "name": "Bon Aqua Sparkling",
+      "category": "Suv",
+      "weight": 5000,
+      "packQuantity": 12,
+      "price": 0.91,
+      "stock": 689,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 224,
+      "name": "San Pellegrino Lemon",
+      "category": "Suv",
+      "weight": 1500,
+      "packQuantity": 12,
+      "price": 1.74,
+      "stock": 638,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 225,
+      "name": "Aqua Mint",
+      "category": "Suv",
+      "weight": 500,
+      "packQuantity": 12,
+      "price": 1.99,
+      "stock": 456,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 226,
+      "name": "Nestle Pure Life Sparkling",
+      "category": "Suv",
+      "weight": 1000,
+      "packQuantity": 36,
+      "price": 1.26,
+      "stock": 900,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 227,
+      "name": "San Pellegrino Sparkling",
+      "category": "Suv",
+      "weight": 1500,
+      "packQuantity": 12,
+      "price": 0.84,
+      "stock": 652,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 228,
+      "name": "San Pellegrino Sparkling",
+      "category": "Suv",
+      "weight": 1000,
+      "packQuantity": 6,
+      "price": 1.75,
+      "stock": 399,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 229,
+      "name": "Aqua Sparkling",
+      "category": "Suv",
+      "weight": 330,
+      "packQuantity": 36,
+      "price": 1.99,
+      "stock": 447,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 230,
+      "name": "Evian Mint",
+      "category": "Suv",
+      "weight": 1000,
+      "packQuantity": 24,
+      "price": 0.93,
+      "stock": 473,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 231,
+      "name": "Aqua Mint",
+      "category": "Suv",
+      "weight": 5000,
+      "packQuantity": 6,
+      "price": 1.03,
+      "stock": 512,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 232,
+      "name": "Aqua Sparkling",
+      "category": "Suv",
+      "weight": 1000,
+      "packQuantity": 36,
+      "price": 1.27,
+      "stock": 724,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 233,
+      "name": "Vittel Sparkling",
+      "category": "Suv",
+      "weight": 330,
+      "packQuantity": 12,
+      "price": 1.07,
+      "stock": 468,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 234,
+      "name": "Perrier Still",
+      "category": "Suv",
+      "weight": 330,
+      "packQuantity": 12,
+      "price": 1.59,
+      "stock": 713,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 235,
+      "name": "Evian Sparkling",
+      "category": "Suv",
+      "weight": 500,
+      "packQuantity": 6,
+      "price": 1.81,
+      "stock": 667,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 236,
+      "name": "Nestle Pure Life Mint",
+      "category": "Suv",
+      "weight": 1000,
+      "packQuantity": 12,
+      "price": 1.63,
+      "stock": 754,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 237,
+      "name": "Vittel Sparkling",
+      "category": "Suv",
+      "weight": 500,
+      "packQuantity": 12,
+      "price": 1.03,
+      "stock": 643,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 238,
+      "name": "San Pellegrino Still",
+      "category": "Suv",
+      "weight": 1500,
+      "packQuantity": 12,
+      "price": 1.73,
+      "stock": 526,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 239,
+      "name": "Perrier Mint",
+      "category": "Suv",
+      "weight": 5000,
+      "packQuantity": 36,
+      "price": 1.17,
+      "stock": 968,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 240,
+      "name": "Bon Aqua Lemon",
+      "category": "Suv",
+      "weight": 1500,
+      "packQuantity": 6,
+      "price": 0.43,
+      "stock": 306,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 241,
+      "name": "Nestle Pure Life Lemon",
+      "category": "Suv",
+      "weight": 330,
+      "packQuantity": 6,
+      "price": 1.37,
+      "stock": 975,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 242,
+      "name": "San Pellegrino Sparkling",
+      "category": "Suv",
+      "weight": 5000,
+      "packQuantity": 36,
+      "price": 0.65,
+      "stock": 376,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 243,
+      "name": "Evian Mint",
+      "category": "Suv",
+      "weight": 500,
+      "packQuantity": 12,
+      "price": 1.41,
+      "stock": 186,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 244,
+      "name": "Bon Aqua Mint",
+      "category": "Suv",
+      "weight": 1500,
+      "packQuantity": 36,
+      "price": 0.67,
+      "stock": 576,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 245,
+      "name": "Vittel Still",
+      "category": "Suv",
+      "weight": 330,
+      "packQuantity": 36,
+      "price": 0.92,
+      "stock": 213,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 246,
+      "name": "Vittel Mint",
+      "category": "Suv",
+      "weight": 330,
+      "packQuantity": 12,
+      "price": 1.65,
+      "stock": 527,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 247,
+      "name": "Aqua Sparkling",
+      "category": "Suv",
+      "weight": 5000,
+      "packQuantity": 36,
+      "price": 0.34,
+      "stock": 394,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 248,
+      "name": "Nestle Pure Life Still",
+      "category": "Suv",
+      "weight": 500,
+      "packQuantity": 24,
+      "price": 1.52,
+      "stock": 302,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 249,
+      "name": "Aqua Sparkling",
+      "category": "Suv",
+      "weight": 5000,
+      "packQuantity": 36,
+      "price": 1.01,
+      "stock": 920,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 250,
+      "name": "Bon Aqua Mint",
+      "category": "Suv",
+      "weight": 500,
+      "packQuantity": 6,
+      "price": 1.37,
+      "stock": 953,
+      "image": "https://images.unsplash.com/photo-1559839914-17aae19cec71?w=400"
+    },
+    {
+      "id": 251,
+      "name": "Perrier Sparkling",
+      "category": "Suv",
+      "weight": 500,
+      "packQuantity": 6,
+      "price": 1.93,
+      "stock": 582,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 252,
+      "name": "Evian Lemon",
+      "category": "Suv",
+      "weight": 500,
+      "packQuantity": 36,
+      "price": 1.13,
+      "stock": 692,
+      "image": "https://images.unsplash.com/photo-1548839140-29a749e1cf4d?w=400"
+    },
+    {
+      "id": 253,
+      "name": "Doritos Classic",
+      "category": "Chips",
+      "weight": 80,
+      "packQuantity": 24,
+      "price": 0.62,
+      "stock": 163,
+      "image": "https://images.unsplash.com/photo-1600952841320-db92ec4047ca?w=400"
+    },
+    {
+      "id": 254,
+      "name": "Kettle Cheese",
+      "category": "Chips",
+      "weight": 80,
+      "packQuantity": 36,
+      "price": 2.51,
+      "stock": 463,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 255,
+      "name": "Doritos Salt & Vinegar",
+      "category": "Chips",
+      "weight": 200,
+      "packQuantity": 12,
+      "price": 0.66,
+      "stock": 797,
+      "image": "https://images.unsplash.com/photo-1600952841320-db92ec4047ca?w=400"
+    },
+    {
+      "id": 256,
+      "name": "Kettle Original",
+      "category": "Chips",
+      "weight": 40,
+      "packQuantity": 36,
+      "price": 2.85,
+      "stock": 106,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 257,
+      "name": "Pringles Cheese",
+      "category": "Chips",
+      "weight": 150,
+      "packQuantity": 48,
+      "price": 1.44,
+      "stock": 166,
+      "image": "https://images.unsplash.com/photo-1613919113640-c7ceccfb3e3e?w=400"
+    },
+    {
+      "id": 258,
+      "name": "Ruffles Cheese",
+      "category": "Chips",
+      "weight": 150,
+      "packQuantity": 24,
+      "price": 1.99,
+      "stock": 892,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 259,
+      "name": "Kettle Original",
+      "category": "Chips",
+      "weight": 200,
+      "packQuantity": 48,
+      "price": 1.62,
+      "stock": 822,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 260,
+      "name": "Pringles Cheese",
+      "category": "Chips",
+      "weight": 100,
+      "packQuantity": 12,
+      "price": 0.72,
+      "stock": 886,
+      "image": "https://images.unsplash.com/photo-1613919113640-c7ceccfb3e3e?w=400"
+    },
+    {
+      "id": 261,
+      "name": "Doritos Cheese",
+      "category": "Chips",
+      "weight": 50,
+      "packQuantity": 24,
+      "price": 2.63,
+      "stock": 443,
+      "image": "https://images.unsplash.com/photo-1600952841320-db92ec4047ca?w=400"
+    },
+    {
+      "id": 262,
+      "name": "Cheetos Salt & Vinegar",
+      "category": "Chips",
+      "weight": 150,
+      "packQuantity": 48,
+      "price": 0.77,
+      "stock": 505,
+      "image": "https://images.unsplash.com/photo-1600952841320-db92ec4047ca?w=400"
+    },
+    {
+      "id": 263,
+      "name": "Ruffles Salt & Vinegar",
+      "category": "Chips",
+      "weight": 80,
+      "packQuantity": 36,
+      "price": 1.71,
+      "stock": 446,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 264,
+      "name": "Kettle Classic",
+      "category": "Chips",
+      "weight": 150,
+      "packQuantity": 12,
+      "price": 2.07,
+      "stock": 882,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 265,
+      "name": "Pringles Original",
+      "category": "Chips",
+      "weight": 200,
+      "packQuantity": 24,
+      "price": 1.91,
+      "stock": 956,
+      "image": "https://images.unsplash.com/photo-1613919113640-c7ceccfb3e3e?w=400"
+    },
+    {
+      "id": 266,
+      "name": "Kettle Original",
+      "category": "Chips",
+      "weight": 40,
+      "packQuantity": 12,
+      "price": 0.69,
+      "stock": 310,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 267,
+      "name": "Ruffles Cheese",
+      "category": "Chips",
+      "weight": 150,
+      "packQuantity": 12,
+      "price": 1.65,
+      "stock": 792,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 268,
+      "name": "Ruffles BBQ",
+      "category": "Chips",
+      "weight": 50,
+      "packQuantity": 12,
+      "price": 1.66,
+      "stock": 765,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 269,
+      "name": "Lay's BBQ",
+      "category": "Chips",
+      "weight": 100,
+      "packQuantity": 48,
+      "price": 1.76,
+      "stock": 900,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 270,
+      "name": "Ruffles Salt & Vinegar",
+      "category": "Chips",
+      "weight": 200,
+      "packQuantity": 36,
+      "price": 1.36,
+      "stock": 524,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 271,
+      "name": "Ruffles Cheese",
+      "category": "Chips",
+      "weight": 50,
+      "packQuantity": 12,
+      "price": 2.77,
+      "stock": 949,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 272,
+      "name": "Lay's Cheese",
+      "category": "Chips",
+      "weight": 200,
+      "packQuantity": 48,
+      "price": 1.75,
+      "stock": 965,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 273,
+      "name": "Doritos Paprika",
+      "category": "Chips",
+      "weight": 165,
+      "packQuantity": 24,
+      "price": 2.62,
+      "stock": 927,
+      "image": "https://images.unsplash.com/photo-1600952841320-db92ec4047ca?w=400"
+    },
+    {
+      "id": 274,
+      "name": "Lay's Salt & Vinegar",
+      "category": "Chips",
+      "weight": 165,
+      "packQuantity": 24,
+      "price": 1.85,
+      "stock": 774,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 275,
+      "name": "Kettle Paprika",
+      "category": "Chips",
+      "weight": 40,
+      "packQuantity": 36,
+      "price": 2.63,
+      "stock": 360,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 276,
+      "name": "Lay's Paprika",
+      "category": "Chips",
+      "weight": 150,
+      "packQuantity": 48,
+      "price": 1.82,
+      "stock": 804,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 277,
+      "name": "Doritos Sour Cream",
+      "category": "Chips",
+      "weight": 80,
+      "packQuantity": 12,
+      "price": 2.4,
+      "stock": 406,
+      "image": "https://images.unsplash.com/photo-1600952841320-db92ec4047ca?w=400"
+    },
+    {
+      "id": 278,
+      "name": "Lay's Paprika",
+      "category": "Chips",
+      "weight": 150,
+      "packQuantity": 36,
+      "price": 2.47,
+      "stock": 222,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 279,
+      "name": "Kettle Salt & Vinegar",
+      "category": "Chips",
+      "weight": 40,
+      "packQuantity": 12,
+      "price": 2.1,
+      "stock": 176,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 280,
+      "name": "Ruffles Sour Cream",
+      "category": "Chips",
+      "weight": 150,
+      "packQuantity": 24,
+      "price": 0.92,
+      "stock": 328,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 281,
+      "name": "Pringles BBQ",
+      "category": "Chips",
+      "weight": 40,
+      "packQuantity": 36,
+      "price": 1.4,
+      "stock": 408,
+      "image": "https://images.unsplash.com/photo-1613919113640-c7ceccfb3e3e?w=400"
+    },
+    {
+      "id": 282,
+      "name": "Lay's Paprika",
+      "category": "Chips",
+      "weight": 165,
+      "packQuantity": 24,
+      "price": 2.19,
+      "stock": 503,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 283,
+      "name": "Lay's Paprika",
+      "category": "Chips",
+      "weight": 165,
+      "packQuantity": 12,
+      "price": 2.98,
+      "stock": 531,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 284,
+      "name": "Doritos Paprika",
+      "category": "Chips",
+      "weight": 150,
+      "packQuantity": 48,
+      "price": 2.09,
+      "stock": 851,
+      "image": "https://images.unsplash.com/photo-1600952841320-db92ec4047ca?w=400"
+    },
+    {
+      "id": 285,
+      "name": "Kettle Cheese",
+      "category": "Chips",
+      "weight": 80,
+      "packQuantity": 36,
+      "price": 2.63,
+      "stock": 439,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 286,
+      "name": "Lay's Classic",
+      "category": "Chips",
+      "weight": 40,
+      "packQuantity": 24,
+      "price": 1.25,
+      "stock": 271,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 287,
+      "name": "Kettle Sour Cream",
+      "category": "Chips",
+      "weight": 200,
+      "packQuantity": 12,
+      "price": 1.2,
+      "stock": 668,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 288,
+      "name": "Lay's BBQ",
+      "category": "Chips",
+      "weight": 200,
+      "packQuantity": 36,
+      "price": 1.65,
+      "stock": 285,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 289,
+      "name": "Cheetos Paprika",
+      "category": "Chips",
+      "weight": 80,
+      "packQuantity": 24,
+      "price": 0.64,
+      "stock": 911,
+      "image": "https://images.unsplash.com/photo-1600952841320-db92ec4047ca?w=400"
+    },
+    {
+      "id": 290,
+      "name": "Kettle Paprika",
+      "category": "Chips",
+      "weight": 50,
+      "packQuantity": 24,
+      "price": 1.65,
+      "stock": 205,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 291,
+      "name": "Cheetos Original",
+      "category": "Chips",
+      "weight": 80,
+      "packQuantity": 48,
+      "price": 2.37,
+      "stock": 852,
+      "image": "https://images.unsplash.com/photo-1600952841320-db92ec4047ca?w=400"
+    },
+    {
+      "id": 292,
+      "name": "Cheetos Original",
+      "category": "Chips",
+      "weight": 150,
+      "packQuantity": 48,
+      "price": 2.66,
+      "stock": 927,
+      "image": "https://images.unsplash.com/photo-1600952841320-db92ec4047ca?w=400"
+    },
+    {
+      "id": 293,
+      "name": "Lay's Cheese",
+      "category": "Chips",
+      "weight": 100,
+      "packQuantity": 12,
+      "price": 1.32,
+      "stock": 402,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 294,
+      "name": "Pringles Salt & Vinegar",
+      "category": "Chips",
+      "weight": 100,
+      "packQuantity": 36,
+      "price": 2.85,
+      "stock": 822,
+      "image": "https://images.unsplash.com/photo-1613919113640-c7ceccfb3e3e?w=400"
+    },
+    {
+      "id": 295,
+      "name": "Kettle Cheese",
+      "category": "Chips",
+      "weight": 150,
+      "packQuantity": 48,
+      "price": 2.65,
+      "stock": 386,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 296,
+      "name": "Lay's Salt & Vinegar",
+      "category": "Chips",
+      "weight": 150,
+      "packQuantity": 12,
+      "price": 0.68,
+      "stock": 421,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 297,
+      "name": "Lay's Cheese",
+      "category": "Chips",
+      "weight": 50,
+      "packQuantity": 24,
+      "price": 2.57,
+      "stock": 632,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 298,
+      "name": "Pringles Paprika",
+      "category": "Chips",
+      "weight": 200,
+      "packQuantity": 24,
+      "price": 1.39,
+      "stock": 100,
+      "image": "https://images.unsplash.com/photo-1613919113640-c7ceccfb3e3e?w=400"
+    },
+    {
+      "id": 299,
+      "name": "Lay's Salt & Vinegar",
+      "category": "Chips",
+      "weight": 80,
+      "packQuantity": 36,
+      "price": 2.23,
+      "stock": 537,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 300,
+      "name": "Ruffles Sour Cream",
+      "category": "Chips",
+      "weight": 165,
+      "packQuantity": 48,
+      "price": 2,
+      "stock": 200,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 301,
+      "name": "Lay's Salt & Vinegar",
+      "category": "Chips",
+      "weight": 50,
+      "packQuantity": 24,
+      "price": 2.59,
+      "stock": 141,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 302,
+      "name": "Kettle Classic",
+      "category": "Chips",
+      "weight": 50,
+      "packQuantity": 48,
+      "price": 1.09,
+      "stock": 595,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 303,
+      "name": "Lay's Sour Cream",
+      "category": "Chips",
+      "weight": 50,
+      "packQuantity": 12,
+      "price": 2.29,
+      "stock": 871,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 304,
+      "name": "Cheetos Sour Cream",
+      "category": "Chips",
+      "weight": 40,
+      "packQuantity": 24,
+      "price": 0.71,
+      "stock": 808,
+      "image": "https://images.unsplash.com/photo-1600952841320-db92ec4047ca?w=400"
+    },
+    {
+      "id": 305,
+      "name": "Doritos BBQ",
+      "category": "Chips",
+      "weight": 40,
+      "packQuantity": 12,
+      "price": 2.56,
+      "stock": 223,
+      "image": "https://images.unsplash.com/photo-1600952841320-db92ec4047ca?w=400"
+    },
+    {
+      "id": 306,
+      "name": "Kettle Paprika",
+      "category": "Chips",
+      "weight": 200,
+      "packQuantity": 36,
+      "price": 1.87,
+      "stock": 299,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 307,
+      "name": "Ruffles Paprika",
+      "category": "Chips",
+      "weight": 150,
+      "packQuantity": 48,
+      "price": 1.57,
+      "stock": 194,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 308,
+      "name": "Ruffles Original",
+      "category": "Chips",
+      "weight": 165,
+      "packQuantity": 36,
+      "price": 0.77,
+      "stock": 363,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 309,
+      "name": "Kettle Classic",
+      "category": "Chips",
+      "weight": 40,
+      "packQuantity": 24,
+      "price": 1.62,
+      "stock": 608,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 310,
+      "name": "Kettle BBQ",
+      "category": "Chips",
+      "weight": 165,
+      "packQuantity": 36,
+      "price": 0.78,
+      "stock": 199,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 311,
+      "name": "Lay's Sour Cream",
+      "category": "Chips",
+      "weight": 40,
+      "packQuantity": 24,
+      "price": 2.62,
+      "stock": 294,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 312,
+      "name": "Ruffles Cheese",
+      "category": "Chips",
+      "weight": 200,
+      "packQuantity": 12,
+      "price": 1.45,
+      "stock": 606,
+      "image": "https://images.unsplash.com/photo-1566478989037-eec170784d0b?w=400"
+    },
+    {
+      "id": 313,
+      "name": "Pringles Paprika",
+      "category": "Chips",
+      "weight": 165,
+      "packQuantity": 12,
+      "price": 2.28,
+      "stock": 537,
+      "image": "https://images.unsplash.com/photo-1613919113640-c7ceccfb3e3e?w=400"
+    },
+    {
+      "id": 314,
+      "name": "Doritos Sour Cream",
+      "category": "Chips",
+      "weight": 40,
+      "packQuantity": 24,
+      "price": 2.4,
+      "stock": 307,
+      "image": "https://images.unsplash.com/photo-1600952841320-db92ec4047ca?w=400"
+    },
+    {
+      "id": 315,
+      "name": "Doritos Original",
+      "category": "Chips",
+      "weight": 150,
+      "packQuantity": 48,
+      "price": 1.43,
+      "stock": 284,
+      "image": "https://images.unsplash.com/photo-1600952841320-db92ec4047ca?w=400"
+    },
+    {
+      "id": 316,
+      "name": "Haribo Tropical",
+      "category": "Konfet",
+      "weight": 18,
+      "packQuantity": 60,
+      "price": 0.62,
+      "stock": 528,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 317,
+      "name": "Chupa Chups Cola",
+      "category": "Konfet",
+      "weight": 12,
+      "packQuantity": 100,
+      "price": 1.33,
+      "stock": 380,
+      "image": "https://images.unsplash.com/photo-1581798459219-c0f6fa8c0f0b?w=400"
+    },
+    {
+      "id": 318,
+      "name": "Skittles Mint",
+      "category": "Konfet",
+      "weight": 12,
+      "packQuantity": 40,
+      "price": 1.81,
+      "stock": 488,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 319,
+      "name": "Tic Tac Berry",
+      "category": "Konfet",
+      "weight": 30,
+      "packQuantity": 36,
+      "price": 0.87,
+      "stock": 982,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 320,
+      "name": "Mentos Fruit",
+      "category": "Konfet",
+      "weight": 18,
+      "packQuantity": 40,
+      "price": 1.86,
+      "stock": 306,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 321,
+      "name": "Skittles Fruit",
+      "category": "Konfet",
+      "weight": 45,
+      "packQuantity": 24,
+      "price": 0.59,
+      "stock": 134,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 322,
+      "name": "Skittles Fruit",
+      "category": "Konfet",
+      "weight": 45,
+      "packQuantity": 100,
+      "price": 1.1,
+      "stock": 825,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 323,
+      "name": "Orbit Cola",
+      "category": "Konfet",
+      "weight": 38,
+      "packQuantity": 100,
+      "price": 1.55,
+      "stock": 787,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 324,
+      "name": "Haribo Cola",
+      "category": "Konfet",
+      "weight": 45,
+      "packQuantity": 60,
+      "price": 0.31,
+      "stock": 145,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 325,
+      "name": "Orbit Sour",
+      "category": "Konfet",
+      "weight": 38,
+      "packQuantity": 60,
+      "price": 1.44,
+      "stock": 932,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 326,
+      "name": "M&M's Sour",
+      "category": "Konfet",
+      "weight": 150,
+      "packQuantity": 100,
+      "price": 0.73,
+      "stock": 171,
+      "image": "https://images.unsplash.com/photo-1571506165871-ee72a35bc9d9?w=400"
+    },
+    {
+      "id": 327,
+      "name": "Haribo Mint",
+      "category": "Konfet",
+      "weight": 18,
+      "packQuantity": 60,
+      "price": 1.86,
+      "stock": 662,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 328,
+      "name": "Chupa Chups Fruit",
+      "category": "Konfet",
+      "weight": 100,
+      "packQuantity": 100,
+      "price": 0.69,
+      "stock": 808,
+      "image": "https://images.unsplash.com/photo-1581798459219-c0f6fa8c0f0b?w=400"
+    },
+    {
+      "id": 329,
+      "name": "Tic Tac Cola",
+      "category": "Konfet",
+      "weight": 12,
+      "packQuantity": 24,
+      "price": 0.57,
+      "stock": 412,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 330,
+      "name": "Tic Tac Mint",
+      "category": "Konfet",
+      "weight": 150,
+      "packQuantity": 40,
+      "price": 0.75,
+      "stock": 100,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 331,
+      "name": "M&M's Sour",
+      "category": "Konfet",
+      "weight": 30,
+      "packQuantity": 100,
+      "price": 1.08,
+      "stock": 207,
+      "image": "https://images.unsplash.com/photo-1571506165871-ee72a35bc9d9?w=400"
+    },
+    {
+      "id": 332,
+      "name": "Mentos Mint",
+      "category": "Konfet",
+      "weight": 55,
+      "packQuantity": 40,
+      "price": 0.44,
+      "stock": 779,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 333,
+      "name": "Skittles Berry",
+      "category": "Konfet",
+      "weight": 100,
+      "packQuantity": 36,
+      "price": 0.45,
+      "stock": 671,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 334,
+      "name": "Mentos Cola",
+      "category": "Konfet",
+      "weight": 150,
+      "packQuantity": 40,
+      "price": 0.89,
+      "stock": 477,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 335,
+      "name": "Mentos Fruit",
+      "category": "Konfet",
+      "weight": 45,
+      "packQuantity": 60,
+      "price": 1.16,
+      "stock": 860,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 336,
+      "name": "Chupa Chups Cola",
+      "category": "Konfet",
+      "weight": 38,
+      "packQuantity": 100,
+      "price": 0.38,
+      "stock": 745,
+      "image": "https://images.unsplash.com/photo-1581798459219-c0f6fa8c0f0b?w=400"
+    },
+    {
+      "id": 337,
+      "name": "Haribo Cola",
+      "category": "Konfet",
+      "weight": 45,
+      "packQuantity": 100,
+      "price": 0.76,
+      "stock": 313,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 338,
+      "name": "M&M's Mint",
+      "category": "Konfet",
+      "weight": 100,
+      "packQuantity": 40,
+      "price": 1.33,
+      "stock": 980,
+      "image": "https://images.unsplash.com/photo-1571506165871-ee72a35bc9d9?w=400"
+    },
+    {
+      "id": 339,
+      "name": "M&M's Mint",
+      "category": "Konfet",
+      "weight": 30,
+      "packQuantity": 60,
+      "price": 1.38,
+      "stock": 712,
+      "image": "https://images.unsplash.com/photo-1571506165871-ee72a35bc9d9?w=400"
+    },
+    {
+      "id": 340,
+      "name": "Orbit Cola",
+      "category": "Konfet",
+      "weight": 12,
+      "packQuantity": 60,
+      "price": 1.76,
+      "stock": 190,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 341,
+      "name": "Chupa Chups Original",
+      "category": "Konfet",
+      "weight": 100,
+      "packQuantity": 100,
+      "price": 1.43,
+      "stock": 761,
+      "image": "https://images.unsplash.com/photo-1581798459219-c0f6fa8c0f0b?w=400"
+    },
+    {
+      "id": 342,
+      "name": "Mentos Tropical",
+      "category": "Konfet",
+      "weight": 45,
+      "packQuantity": 24,
+      "price": 0.72,
+      "stock": 757,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 343,
+      "name": "Haribo Original",
+      "category": "Konfet",
+      "weight": 38,
+      "packQuantity": 36,
+      "price": 0.77,
+      "stock": 925,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 344,
+      "name": "Tic Tac Mint",
+      "category": "Konfet",
+      "weight": 45,
+      "packQuantity": 40,
+      "price": 1.89,
+      "stock": 400,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 345,
+      "name": "M&M's Original",
+      "category": "Konfet",
+      "weight": 45,
+      "packQuantity": 100,
+      "price": 0.53,
+      "stock": 647,
+      "image": "https://images.unsplash.com/photo-1571506165871-ee72a35bc9d9?w=400"
+    },
+    {
+      "id": 346,
+      "name": "Chupa Chups Berry",
+      "category": "Konfet",
+      "weight": 150,
+      "packQuantity": 36,
+      "price": 1.43,
+      "stock": 598,
+      "image": "https://images.unsplash.com/photo-1581798459219-c0f6fa8c0f0b?w=400"
+    },
+    {
+      "id": 347,
+      "name": "Skittles Berry",
+      "category": "Konfet",
+      "weight": 18,
+      "packQuantity": 40,
+      "price": 1.27,
+      "stock": 273,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 348,
+      "name": "Orbit Original",
+      "category": "Konfet",
+      "weight": 45,
+      "packQuantity": 36,
+      "price": 1.86,
+      "stock": 711,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 349,
+      "name": "M&M's Mint",
+      "category": "Konfet",
+      "weight": 55,
+      "packQuantity": 60,
+      "price": 1.8,
+      "stock": 859,
+      "image": "https://images.unsplash.com/photo-1571506165871-ee72a35bc9d9?w=400"
+    },
+    {
+      "id": 350,
+      "name": "M&M's Cola",
+      "category": "Konfet",
+      "weight": 12,
+      "packQuantity": 24,
+      "price": 1.9,
+      "stock": 267,
+      "image": "https://images.unsplash.com/photo-1571506165871-ee72a35bc9d9?w=400"
+    },
+    {
+      "id": 351,
+      "name": "Chupa Chups Tropical",
+      "category": "Konfet",
+      "weight": 12,
+      "packQuantity": 40,
+      "price": 1.06,
+      "stock": 385,
+      "image": "https://images.unsplash.com/photo-1581798459219-c0f6fa8c0f0b?w=400"
+    },
+    {
+      "id": 352,
+      "name": "Mentos Original",
+      "category": "Konfet",
+      "weight": 38,
+      "packQuantity": 36,
+      "price": 1.15,
+      "stock": 917,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 353,
+      "name": "Haribo Tropical",
+      "category": "Konfet",
+      "weight": 100,
+      "packQuantity": 60,
+      "price": 1.82,
+      "stock": 268,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 354,
+      "name": "M&M's Tropical",
+      "category": "Konfet",
+      "weight": 55,
+      "packQuantity": 36,
+      "price": 0.89,
+      "stock": 231,
+      "image": "https://images.unsplash.com/photo-1571506165871-ee72a35bc9d9?w=400"
+    },
+    {
+      "id": 355,
+      "name": "Mentos Cola",
+      "category": "Konfet",
+      "weight": 45,
+      "packQuantity": 100,
+      "price": 0.66,
+      "stock": 139,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 356,
+      "name": "M&M's Mint",
+      "category": "Konfet",
+      "weight": 38,
+      "packQuantity": 60,
+      "price": 1.23,
+      "stock": 337,
+      "image": "https://images.unsplash.com/photo-1571506165871-ee72a35bc9d9?w=400"
+    },
+    {
+      "id": 357,
+      "name": "Orbit Sour",
+      "category": "Konfet",
+      "weight": 38,
+      "packQuantity": 100,
+      "price": 0.35,
+      "stock": 436,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 358,
+      "name": "Tic Tac Sour",
+      "category": "Konfet",
+      "weight": 150,
+      "packQuantity": 60,
+      "price": 1.85,
+      "stock": 681,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 359,
+      "name": "Orbit Cola",
+      "category": "Konfet",
+      "weight": 12,
+      "packQuantity": 40,
+      "price": 1.55,
+      "stock": 544,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 360,
+      "name": "Chupa Chups Berry",
+      "category": "Konfet",
+      "weight": 55,
+      "packQuantity": 36,
+      "price": 0.79,
+      "stock": 973,
+      "image": "https://images.unsplash.com/photo-1581798459219-c0f6fa8c0f0b?w=400"
+    },
+    {
+      "id": 361,
+      "name": "Mentos Sour",
+      "category": "Konfet",
+      "weight": 38,
+      "packQuantity": 100,
+      "price": 1.89,
+      "stock": 388,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 362,
+      "name": "Chupa Chups Sour",
+      "category": "Konfet",
+      "weight": 12,
+      "packQuantity": 60,
+      "price": 1.93,
+      "stock": 520,
+      "image": "https://images.unsplash.com/photo-1581798459219-c0f6fa8c0f0b?w=400"
+    },
+    {
+      "id": 363,
+      "name": "Haribo Mint",
+      "category": "Konfet",
+      "weight": 38,
+      "packQuantity": 40,
+      "price": 0.64,
+      "stock": 165,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 364,
+      "name": "Haribo Original",
+      "category": "Konfet",
+      "weight": 12,
+      "packQuantity": 24,
+      "price": 1.83,
+      "stock": 717,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 365,
+      "name": "Tic Tac Berry",
+      "category": "Konfet",
+      "weight": 18,
+      "packQuantity": 60,
+      "price": 1.14,
+      "stock": 203,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 366,
+      "name": "Tic Tac Fruit",
+      "category": "Konfet",
+      "weight": 18,
+      "packQuantity": 40,
+      "price": 1.57,
+      "stock": 421,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 367,
+      "name": "M&M's Original",
+      "category": "Konfet",
+      "weight": 18,
+      "packQuantity": 40,
+      "price": 0.43,
+      "stock": 970,
+      "image": "https://images.unsplash.com/photo-1571506165871-ee72a35bc9d9?w=400"
+    },
+    {
+      "id": 368,
+      "name": "M&M's Berry",
+      "category": "Konfet",
+      "weight": 55,
+      "packQuantity": 24,
+      "price": 1.88,
+      "stock": 548,
+      "image": "https://images.unsplash.com/photo-1571506165871-ee72a35bc9d9?w=400"
+    },
+    {
+      "id": 369,
+      "name": "Chupa Chups Cola",
+      "category": "Konfet",
+      "weight": 18,
+      "packQuantity": 24,
+      "price": 0.45,
+      "stock": 191,
+      "image": "https://images.unsplash.com/photo-1581798459219-c0f6fa8c0f0b?w=400"
+    },
+    {
+      "id": 370,
+      "name": "Skittles Fruit",
+      "category": "Konfet",
+      "weight": 30,
+      "packQuantity": 100,
+      "price": 1.51,
+      "stock": 367,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 371,
+      "name": "Tic Tac Fruit",
+      "category": "Konfet",
+      "weight": 12,
+      "packQuantity": 100,
+      "price": 1.97,
+      "stock": 185,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 372,
+      "name": "Haribo Berry",
+      "category": "Konfet",
+      "weight": 45,
+      "packQuantity": 60,
+      "price": 1.16,
+      "stock": 579,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 373,
+      "name": "Tic Tac Sour",
+      "category": "Konfet",
+      "weight": 55,
+      "packQuantity": 24,
+      "price": 0.72,
+      "stock": 937,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 374,
+      "name": "Tic Tac Berry",
+      "category": "Konfet",
+      "weight": 18,
+      "packQuantity": 100,
+      "price": 1.02,
+      "stock": 699,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 375,
+      "name": "Orbit Original",
+      "category": "Konfet",
+      "weight": 30,
+      "packQuantity": 24,
+      "price": 0.89,
+      "stock": 331,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 376,
+      "name": "Chupa Chups Sour",
+      "category": "Konfet",
+      "weight": 45,
+      "packQuantity": 100,
+      "price": 1.25,
+      "stock": 656,
+      "image": "https://images.unsplash.com/photo-1581798459219-c0f6fa8c0f0b?w=400"
+    },
+    {
+      "id": 377,
+      "name": "Orbit Tropical",
+      "category": "Konfet",
+      "weight": 30,
+      "packQuantity": 60,
+      "price": 0.76,
+      "stock": 578,
+      "image": "https://images.unsplash.com/photo-1582058091505-f87a2e55a40f?w=400"
+    },
+    {
+      "id": 378,
+      "name": "Chupa Chups Cola",
+      "category": "Konfet",
+      "weight": 12,
+      "packQuantity": 40,
+      "price": 0.38,
+      "stock": 673,
+      "image": "https://images.unsplash.com/photo-1581798459219-c0f6fa8c0f0b?w=400"
+    },
+    {
+      "id": 379,
+      "name": "Rich Tea Strawberry",
+      "category": "Pechene",
+      "weight": 300,
+      "packQuantity": 24,
+      "price": 1.06,
+      "stock": 339,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 380,
+      "name": "Prince Original",
+      "category": "Pechene",
+      "weight": 154,
+      "packQuantity": 24,
+      "price": 3.2,
+      "stock": 398,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 381,
+      "name": "Chips Ahoy Chocolate",
+      "category": "Pechene",
+      "weight": 250,
+      "packQuantity": 20,
+      "price": 3.16,
+      "stock": 202,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 382,
+      "name": "Digestive Double",
+      "category": "Pechene",
+      "weight": 200,
+      "packQuantity": 20,
+      "price": 2.75,
+      "stock": 615,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 383,
+      "name": "Digestive Chocolate",
+      "category": "Pechene",
+      "weight": 200,
+      "packQuantity": 24,
+      "price": 2.84,
+      "stock": 917,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 384,
+      "name": "Oreo Double",
+      "category": "Pechene",
+      "weight": 154,
+      "packQuantity": 12,
+      "price": 3.46,
+      "stock": 977,
+      "image": "https://images.unsplash.com/photo-1606312619070-d48b4cdd0d59?w=400"
+    },
+    {
+      "id": 385,
+      "name": "Chips Ahoy Vanilla",
+      "category": "Pechene",
+      "weight": 250,
+      "packQuantity": 16,
+      "price": 2.24,
+      "stock": 231,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 386,
+      "name": "Jubilee Peanut Butter",
+      "category": "Pechene",
+      "weight": 200,
+      "packQuantity": 12,
+      "price": 1.56,
+      "stock": 979,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 387,
+      "name": "Oreo Peanut Butter",
+      "category": "Pechene",
+      "weight": 250,
+      "packQuantity": 12,
+      "price": 1.29,
+      "stock": 173,
+      "image": "https://images.unsplash.com/photo-1606312619070-d48b4cdd0d59?w=400"
+    },
+    {
+      "id": 388,
+      "name": "Jubilee Peanut Butter",
+      "category": "Pechene",
+      "weight": 180,
+      "packQuantity": 12,
+      "price": 2.48,
+      "stock": 389,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 389,
+      "name": "Rich Tea Double",
+      "category": "Pechene",
+      "weight": 200,
+      "packQuantity": 16,
+      "price": 3.23,
+      "stock": 563,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 390,
+      "name": "Oreo Vanilla",
+      "category": "Pechene",
+      "weight": 180,
+      "packQuantity": 20,
+      "price": 3.1,
+      "stock": 401,
+      "image": "https://images.unsplash.com/photo-1606312619070-d48b4cdd0d59?w=400"
+    },
+    {
+      "id": 391,
+      "name": "Digestive Peanut Butter",
+      "category": "Pechene",
+      "weight": 250,
+      "packQuantity": 20,
+      "price": 2.05,
+      "stock": 710,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 392,
+      "name": "Chips Ahoy Chocolate",
+      "category": "Pechene",
+      "weight": 200,
+      "packQuantity": 12,
+      "price": 3.34,
+      "stock": 953,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 393,
+      "name": "Rich Tea Chocolate",
+      "category": "Pechene",
+      "weight": 154,
+      "packQuantity": 20,
+      "price": 2.68,
+      "stock": 360,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 394,
+      "name": "Chips Ahoy Double",
+      "category": "Pechene",
+      "weight": 300,
+      "packQuantity": 20,
+      "price": 2.7,
+      "stock": 203,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 395,
+      "name": "Chips Ahoy Original",
+      "category": "Pechene",
+      "weight": 180,
+      "packQuantity": 12,
+      "price": 3.4,
+      "stock": 235,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 396,
+      "name": "Prince Peanut Butter",
+      "category": "Pechene",
+      "weight": 250,
+      "packQuantity": 16,
+      "price": 2.97,
+      "stock": 203,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 397,
+      "name": "Digestive Vanilla",
+      "category": "Pechene",
+      "weight": 300,
+      "packQuantity": 20,
+      "price": 1.06,
+      "stock": 517,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 398,
+      "name": "Chips Ahoy Peanut Butter",
+      "category": "Pechene",
+      "weight": 300,
+      "packQuantity": 24,
+      "price": 1.19,
+      "stock": 705,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 399,
+      "name": "Rich Tea Strawberry",
+      "category": "Pechene",
+      "weight": 250,
+      "packQuantity": 12,
+      "price": 3.37,
+      "stock": 596,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 400,
+      "name": "Prince Strawberry",
+      "category": "Pechene",
+      "weight": 300,
+      "packQuantity": 16,
+      "price": 3.3,
+      "stock": 710,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 401,
+      "name": "Rich Tea Chocolate",
+      "category": "Pechene",
+      "weight": 200,
+      "packQuantity": 20,
+      "price": 3.02,
+      "stock": 666,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 402,
+      "name": "Digestive Strawberry",
+      "category": "Pechene",
+      "weight": 154,
+      "packQuantity": 24,
+      "price": 1.01,
+      "stock": 844,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 403,
+      "name": "Jubilee Peanut Butter",
+      "category": "Pechene",
+      "weight": 200,
+      "packQuantity": 16,
+      "price": 1.44,
+      "stock": 151,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 404,
+      "name": "Prince Original",
+      "category": "Pechene",
+      "weight": 300,
+      "packQuantity": 16,
+      "price": 3.27,
+      "stock": 789,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 405,
+      "name": "Prince Vanilla",
+      "category": "Pechene",
+      "weight": 180,
+      "packQuantity": 24,
+      "price": 2.79,
+      "stock": 938,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 406,
+      "name": "Digestive Original",
+      "category": "Pechene",
+      "weight": 200,
+      "packQuantity": 24,
+      "price": 1.27,
+      "stock": 918,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 407,
+      "name": "Digestive Double",
+      "category": "Pechene",
+      "weight": 300,
+      "packQuantity": 12,
+      "price": 1.92,
+      "stock": 826,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 408,
+      "name": "Rich Tea Original",
+      "category": "Pechene",
+      "weight": 200,
+      "packQuantity": 12,
+      "price": 2.48,
+      "stock": 825,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 409,
+      "name": "Jubilee Original",
+      "category": "Pechene",
+      "weight": 154,
+      "packQuantity": 12,
+      "price": 2,
+      "stock": 899,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 410,
+      "name": "Digestive Double",
+      "category": "Pechene",
+      "weight": 154,
+      "packQuantity": 24,
+      "price": 3.11,
+      "stock": 593,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 411,
+      "name": "Digestive Original",
+      "category": "Pechene",
+      "weight": 300,
+      "packQuantity": 20,
+      "price": 2.41,
+      "stock": 946,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 412,
+      "name": "Rich Tea Vanilla",
+      "category": "Pechene",
+      "weight": 154,
+      "packQuantity": 16,
+      "price": 1.47,
+      "stock": 370,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 413,
+      "name": "Chips Ahoy Original",
+      "category": "Pechene",
+      "weight": 300,
+      "packQuantity": 16,
+      "price": 1.08,
+      "stock": 837,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 414,
+      "name": "Oreo Double",
+      "category": "Pechene",
+      "weight": 300,
+      "packQuantity": 20,
+      "price": 1.44,
+      "stock": 886,
+      "image": "https://images.unsplash.com/photo-1606312619070-d48b4cdd0d59?w=400"
+    },
+    {
+      "id": 415,
+      "name": "Oreo Strawberry",
+      "category": "Pechene",
+      "weight": 154,
+      "packQuantity": 12,
+      "price": 3.44,
+      "stock": 138,
+      "image": "https://images.unsplash.com/photo-1606312619070-d48b4cdd0d59?w=400"
+    },
+    {
+      "id": 416,
+      "name": "Jubilee Peanut Butter",
+      "category": "Pechene",
+      "weight": 300,
+      "packQuantity": 24,
+      "price": 2.12,
+      "stock": 892,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 417,
+      "name": "Chips Ahoy Vanilla",
+      "category": "Pechene",
+      "weight": 180,
+      "packQuantity": 20,
+      "price": 2.96,
+      "stock": 381,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 418,
+      "name": "Chips Ahoy Chocolate",
+      "category": "Pechene",
+      "weight": 180,
+      "packQuantity": 20,
+      "price": 2.28,
+      "stock": 438,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 419,
+      "name": "Prince Chocolate",
+      "category": "Pechene",
+      "weight": 300,
+      "packQuantity": 24,
+      "price": 2.33,
+      "stock": 113,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 420,
+      "name": "Rich Tea Original",
+      "category": "Pechene",
+      "weight": 250,
+      "packQuantity": 12,
+      "price": 3.36,
+      "stock": 311,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 421,
+      "name": "Digestive Vanilla",
+      "category": "Pechene",
+      "weight": 200,
+      "packQuantity": 16,
+      "price": 3.01,
+      "stock": 133,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 422,
+      "name": "Prince Strawberry",
+      "category": "Pechene",
+      "weight": 300,
+      "packQuantity": 12,
+      "price": 1.78,
+      "stock": 162,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 423,
+      "name": "Digestive Double",
+      "category": "Pechene",
+      "weight": 200,
+      "packQuantity": 24,
+      "price": 2.14,
+      "stock": 182,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 424,
+      "name": "Oreo Chocolate",
+      "category": "Pechene",
+      "weight": 180,
+      "packQuantity": 24,
+      "price": 3.37,
+      "stock": 615,
+      "image": "https://images.unsplash.com/photo-1606312619070-d48b4cdd0d59?w=400"
+    },
+    {
+      "id": 425,
+      "name": "Jubilee Peanut Butter",
+      "category": "Pechene",
+      "weight": 154,
+      "packQuantity": 12,
+      "price": 2.43,
+      "stock": 598,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 426,
+      "name": "Rich Tea Chocolate",
+      "category": "Pechene",
+      "weight": 154,
+      "packQuantity": 24,
+      "price": 1.16,
+      "stock": 743,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 427,
+      "name": "Chips Ahoy Peanut Butter",
+      "category": "Pechene",
+      "weight": 300,
+      "packQuantity": 20,
+      "price": 1.31,
+      "stock": 894,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 428,
+      "name": "Rich Tea Original",
+      "category": "Pechene",
+      "weight": 300,
+      "packQuantity": 12,
+      "price": 2.81,
+      "stock": 593,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 429,
+      "name": "Digestive Double",
+      "category": "Pechene",
+      "weight": 300,
+      "packQuantity": 16,
+      "price": 3.02,
+      "stock": 667,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 430,
+      "name": "Rich Tea Strawberry",
+      "category": "Pechene",
+      "weight": 300,
+      "packQuantity": 16,
+      "price": 1.24,
+      "stock": 516,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 431,
+      "name": "Rich Tea Peanut Butter",
+      "category": "Pechene",
+      "weight": 154,
+      "packQuantity": 12,
+      "price": 3.25,
+      "stock": 619,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 432,
+      "name": "Rich Tea Peanut Butter",
+      "category": "Pechene",
+      "weight": 154,
+      "packQuantity": 20,
+      "price": 1.85,
+      "stock": 972,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 433,
+      "name": "Chips Ahoy Chocolate",
+      "category": "Pechene",
+      "weight": 250,
+      "packQuantity": 12,
+      "price": 1.68,
+      "stock": 929,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 434,
+      "name": "Jubilee Original",
+      "category": "Pechene",
+      "weight": 300,
+      "packQuantity": 16,
+      "price": 3.22,
+      "stock": 432,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 435,
+      "name": "Jubilee Strawberry",
+      "category": "Pechene",
+      "weight": 200,
+      "packQuantity": 12,
+      "price": 2.98,
+      "stock": 601,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 436,
+      "name": "Chips Ahoy Vanilla",
+      "category": "Pechene",
+      "weight": 180,
+      "packQuantity": 16,
+      "price": 3.03,
+      "stock": 824,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 437,
+      "name": "Digestive Double",
+      "category": "Pechene",
+      "weight": 300,
+      "packQuantity": 24,
+      "price": 2.7,
+      "stock": 502,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 438,
+      "name": "Rich Tea Original",
+      "category": "Pechene",
+      "weight": 300,
+      "packQuantity": 12,
+      "price": 2.64,
+      "stock": 985,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 439,
+      "name": "Rich Tea Strawberry",
+      "category": "Pechene",
+      "weight": 250,
+      "packQuantity": 12,
+      "price": 1.41,
+      "stock": 113,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 440,
+      "name": "Rich Tea Double",
+      "category": "Pechene",
+      "weight": 180,
+      "packQuantity": 16,
+      "price": 1.32,
+      "stock": 744,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 441,
+      "name": "Jubilee Strawberry",
+      "category": "Pechene",
+      "weight": 250,
+      "packQuantity": 12,
+      "price": 3.18,
+      "stock": 267,
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=400"
+    },
+    {
+      "id": 442,
+      "name": "Magnum White",
+      "category": "Muzqaymoq",
+      "weight": 90,
+      "packQuantity": 6,
+      "price": 3.22,
+      "stock": 411,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 443,
+      "name": "Magnum Vanilla",
+      "category": "Muzqaymoq",
+      "weight": 465,
+      "packQuantity": 20,
+      "price": 2.79,
+      "stock": 926,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 444,
+      "name": "Magnum Almond",
+      "category": "Muzqaymoq",
+      "weight": 110,
+      "packQuantity": 18,
+      "price": 3.69,
+      "stock": 103,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 445,
+      "name": "Cornetto White",
+      "category": "Muzqaymoq",
+      "weight": 70,
+      "packQuantity": 6,
+      "price": 2.04,
+      "stock": 152,
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400"
+    },
+    {
+      "id": 446,
+      "name": "Twix Ice Caramel",
+      "category": "Muzqaymoq",
+      "weight": 120,
+      "packQuantity": 24,
+      "price": 3,
+      "stock": 171,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 447,
+      "name": "Cornetto Classic",
+      "category": "Muzqaymoq",
+      "weight": 465,
+      "packQuantity": 6,
+      "price": 1.9,
+      "stock": 919,
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400"
+    },
+    {
+      "id": 448,
+      "name": "Bounty Ice Caramel",
+      "category": "Muzqaymoq",
+      "weight": 110,
+      "packQuantity": 6,
+      "price": 4.28,
+      "stock": 245,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 449,
+      "name": "Ben & Jerry's White",
+      "category": "Muzqaymoq",
+      "weight": 110,
+      "packQuantity": 24,
+      "price": 2.83,
+      "stock": 402,
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400"
+    },
+    {
+      "id": 450,
+      "name": "Ben & Jerry's Almond",
+      "category": "Muzqaymoq",
+      "weight": 90,
+      "packQuantity": 18,
+      "price": 3.77,
+      "stock": 485,
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400"
+    },
+    {
+      "id": 451,
+      "name": "Bounty Ice Vanilla",
+      "category": "Muzqaymoq",
+      "weight": 50,
+      "packQuantity": 24,
+      "price": 1.76,
+      "stock": 138,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 452,
+      "name": "Cornetto Caramel",
+      "category": "Muzqaymoq",
+      "weight": 150,
+      "packQuantity": 6,
+      "price": 3.21,
+      "stock": 558,
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400"
+    },
+    {
+      "id": 453,
+      "name": "Magnum Almond",
+      "category": "Muzqaymoq",
+      "weight": 150,
+      "packQuantity": 18,
+      "price": 3.07,
+      "stock": 148,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 454,
+      "name": "Ben & Jerry's Caramel",
+      "category": "Muzqaymoq",
+      "weight": 150,
+      "packQuantity": 20,
+      "price": 4.12,
+      "stock": 634,
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400"
+    },
+    {
+      "id": 455,
+      "name": "Twix Ice Chocolate",
+      "category": "Muzqaymoq",
+      "weight": 120,
+      "packQuantity": 24,
+      "price": 4.51,
+      "stock": 238,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 456,
+      "name": "Twix Ice White",
+      "category": "Muzqaymoq",
+      "weight": 70,
+      "packQuantity": 12,
+      "price": 2.36,
+      "stock": 538,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 457,
+      "name": "Twix Ice Almond",
+      "category": "Muzqaymoq",
+      "weight": 120,
+      "packQuantity": 24,
+      "price": 3.59,
+      "stock": 807,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 458,
+      "name": "Bounty Ice White",
+      "category": "Muzqaymoq",
+      "weight": 465,
+      "packQuantity": 24,
+      "price": 2.05,
+      "stock": 310,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 459,
+      "name": "Magnum Vanilla",
+      "category": "Muzqaymoq",
+      "weight": 70,
+      "packQuantity": 6,
+      "price": 4.29,
+      "stock": 891,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 460,
+      "name": "Bounty Ice Chocolate",
+      "category": "Muzqaymoq",
+      "weight": 90,
+      "packQuantity": 24,
+      "price": 1.84,
+      "stock": 829,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 461,
+      "name": "Twix Ice Chocolate",
+      "category": "Muzqaymoq",
+      "weight": 120,
+      "packQuantity": 24,
+      "price": 4.23,
+      "stock": 371,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 462,
+      "name": "Ben & Jerry's White",
+      "category": "Muzqaymoq",
+      "weight": 120,
+      "packQuantity": 6,
+      "price": 3.31,
+      "stock": 411,
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400"
+    },
+    {
+      "id": 463,
+      "name": "Bounty Ice Chocolate",
+      "category": "Muzqaymoq",
+      "weight": 150,
+      "packQuantity": 6,
+      "price": 3.97,
+      "stock": 377,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 464,
+      "name": "Cornetto Almond",
+      "category": "Muzqaymoq",
+      "weight": 465,
+      "packQuantity": 12,
+      "price": 4.35,
+      "stock": 762,
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400"
+    },
+    {
+      "id": 465,
+      "name": "Twix Ice Vanilla",
+      "category": "Muzqaymoq",
+      "weight": 150,
+      "packQuantity": 6,
+      "price": 1.57,
+      "stock": 933,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 466,
+      "name": "Bounty Ice Chocolate",
+      "category": "Muzqaymoq",
+      "weight": 150,
+      "packQuantity": 12,
+      "price": 4.56,
+      "stock": 550,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 467,
+      "name": "Snickers Ice White",
+      "category": "Muzqaymoq",
+      "weight": 465,
+      "packQuantity": 18,
+      "price": 4.16,
+      "stock": 299,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 468,
+      "name": "Snickers Ice Vanilla",
+      "category": "Muzqaymoq",
+      "weight": 90,
+      "packQuantity": 20,
+      "price": 3.13,
+      "stock": 940,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 469,
+      "name": "Cornetto Classic",
+      "category": "Muzqaymoq",
+      "weight": 120,
+      "packQuantity": 18,
+      "price": 1.53,
+      "stock": 983,
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400"
+    },
+    {
+      "id": 470,
+      "name": "Snickers Ice White",
+      "category": "Muzqaymoq",
+      "weight": 110,
+      "packQuantity": 24,
+      "price": 1.73,
+      "stock": 353,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 471,
+      "name": "Twix Ice Almond",
+      "category": "Muzqaymoq",
+      "weight": 50,
+      "packQuantity": 12,
+      "price": 2.4,
+      "stock": 798,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 472,
+      "name": "Twix Ice White",
+      "category": "Muzqaymoq",
+      "weight": 150,
+      "packQuantity": 18,
+      "price": 3.85,
+      "stock": 532,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 473,
+      "name": "Cornetto Chocolate",
+      "category": "Muzqaymoq",
+      "weight": 150,
+      "packQuantity": 12,
+      "price": 2.36,
+      "stock": 782,
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400"
+    },
+    {
+      "id": 474,
+      "name": "Snickers Ice White",
+      "category": "Muzqaymoq",
+      "weight": 150,
+      "packQuantity": 6,
+      "price": 2.94,
+      "stock": 430,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 475,
+      "name": "Bounty Ice Caramel",
+      "category": "Muzqaymoq",
+      "weight": 120,
+      "packQuantity": 24,
+      "price": 2.3,
+      "stock": 948,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 476,
+      "name": "Twix Ice Almond",
+      "category": "Muzqaymoq",
+      "weight": 110,
+      "packQuantity": 20,
+      "price": 2.82,
+      "stock": 809,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 477,
+      "name": "Bounty Ice Caramel",
+      "category": "Muzqaymoq",
+      "weight": 465,
+      "packQuantity": 6,
+      "price": 2.61,
+      "stock": 839,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 478,
+      "name": "Cornetto Chocolate",
+      "category": "Muzqaymoq",
+      "weight": 70,
+      "packQuantity": 18,
+      "price": 2.11,
+      "stock": 700,
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400"
+    },
+    {
+      "id": 479,
+      "name": "Twix Ice Classic",
+      "category": "Muzqaymoq",
+      "weight": 110,
+      "packQuantity": 6,
+      "price": 3.3,
+      "stock": 829,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 480,
+      "name": "Twix Ice Caramel",
+      "category": "Muzqaymoq",
+      "weight": 110,
+      "packQuantity": 18,
+      "price": 1.92,
+      "stock": 250,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 481,
+      "name": "Ben & Jerry's Classic",
+      "category": "Muzqaymoq",
+      "weight": 465,
+      "packQuantity": 18,
+      "price": 4.76,
+      "stock": 754,
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400"
+    },
+    {
+      "id": 482,
+      "name": "Ben & Jerry's Classic",
+      "category": "Muzqaymoq",
+      "weight": 150,
+      "packQuantity": 6,
+      "price": 2.79,
+      "stock": 699,
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400"
+    },
+    {
+      "id": 483,
+      "name": "Ben & Jerry's Chocolate",
+      "category": "Muzqaymoq",
+      "weight": 90,
+      "packQuantity": 24,
+      "price": 1.69,
+      "stock": 952,
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400"
+    },
+    {
+      "id": 484,
+      "name": "Twix Ice Classic",
+      "category": "Muzqaymoq",
+      "weight": 70,
+      "packQuantity": 12,
+      "price": 1.55,
+      "stock": 691,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 485,
+      "name": "Magnum Classic",
+      "category": "Muzqaymoq",
+      "weight": 50,
+      "packQuantity": 18,
+      "price": 1.74,
+      "stock": 820,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 486,
+      "name": "Cornetto White",
+      "category": "Muzqaymoq",
+      "weight": 110,
+      "packQuantity": 24,
+      "price": 4.78,
+      "stock": 814,
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400"
+    },
+    {
+      "id": 487,
+      "name": "Cornetto Classic",
+      "category": "Muzqaymoq",
+      "weight": 120,
+      "packQuantity": 6,
+      "price": 3.7,
+      "stock": 337,
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400"
+    },
+    {
+      "id": 488,
+      "name": "Magnum White",
+      "category": "Muzqaymoq",
+      "weight": 70,
+      "packQuantity": 20,
+      "price": 3.81,
+      "stock": 425,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 489,
+      "name": "Snickers Ice Chocolate",
+      "category": "Muzqaymoq",
+      "weight": 465,
+      "packQuantity": 6,
+      "price": 2.18,
+      "stock": 795,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 490,
+      "name": "Cornetto Almond",
+      "category": "Muzqaymoq",
+      "weight": 70,
+      "packQuantity": 24,
+      "price": 3.7,
+      "stock": 683,
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400"
+    },
+    {
+      "id": 491,
+      "name": "Bounty Ice Chocolate",
+      "category": "Muzqaymoq",
+      "weight": 150,
+      "packQuantity": 18,
+      "price": 4.12,
+      "stock": 995,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 492,
+      "name": "Bounty Ice Almond",
+      "category": "Muzqaymoq",
+      "weight": 120,
+      "packQuantity": 18,
+      "price": 3.41,
+      "stock": 560,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 493,
+      "name": "Snickers Ice White",
+      "category": "Muzqaymoq",
+      "weight": 150,
+      "packQuantity": 12,
+      "price": 2,
+      "stock": 268,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 494,
+      "name": "Ben & Jerry's Chocolate",
+      "category": "Muzqaymoq",
+      "weight": 120,
+      "packQuantity": 20,
+      "price": 3.44,
+      "stock": 900,
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400"
+    },
+    {
+      "id": 495,
+      "name": "Bounty Ice White",
+      "category": "Muzqaymoq",
+      "weight": 150,
+      "packQuantity": 24,
+      "price": 2.93,
+      "stock": 233,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 496,
+      "name": "Snickers Ice Vanilla",
+      "category": "Muzqaymoq",
+      "weight": 120,
+      "packQuantity": 24,
+      "price": 3.04,
+      "stock": 710,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 497,
+      "name": "Ben & Jerry's Almond",
+      "category": "Muzqaymoq",
+      "weight": 70,
+      "packQuantity": 20,
+      "price": 2.04,
+      "stock": 498,
+      "image": "https://images.unsplash.com/photo-1563805042-7684c019e1cb?w=400"
+    },
+    {
+      "id": 498,
+      "name": "Bounty Ice Classic",
+      "category": "Muzqaymoq",
+      "weight": 110,
+      "packQuantity": 18,
+      "price": 1.97,
+      "stock": 506,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 499,
+      "name": "Snickers Ice Vanilla",
+      "category": "Muzqaymoq",
+      "weight": 110,
+      "packQuantity": 6,
+      "price": 2.99,
+      "stock": 897,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 500,
+      "name": "Twix Ice Caramel",
+      "category": "Muzqaymoq",
+      "weight": 150,
+      "packQuantity": 24,
+      "price": 2.6,
+      "stock": 931,
+      "image": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?w=400"
+    },
+    {
+      "id": 1784282239849,
+      "name": "pepsi",
+      "category": "Ichimlik",
+      "weight": 100,
+      "packQuantity": 24,
+      "price": 10.8,
+      "stock": 9980,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5uWFEmJKRXLQcwi7A0wgG7MzacMuiOKlIqxrW3fnJNg&s=10",
+      "createdAt": "2026-07-17T09:57:19.849Z",
+      "updatedAt": "2026-07-17T18:43:15.276Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": 1784282551412,
+      "orderNumber": "ORD-551412",
+      "customer": "Eko",
+      "phone": "",
+      "date": "2026-07-17T10:02:31.405Z",
+      "status": "Jo'natilgan",
+      "warehouse": "Склад",
+      "address": "",
+      "comment": "",
+      "currency": "USD",
+      "lines": [
+        {
+          "id": 1784282524369,
+          "productId": 124,
+          "name": "Pepsi Orange",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdZYBXDjAXEAgT8DbulrQCyiqsR76LKfiyTgOUpoB5rA&s=10",
+          "qty": 100,
+          "price": 1.17,
+          "discount": 0
+        },
+        {
+          "id": 1784282531510,
+          "productId": 1784282239849,
+          "name": "pepsi",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5uWFEmJKRXLQcwi7A0wgG7MzacMuiOKlIqxrW3fnJNg&s=10",
+          "qty": 10,
+          "price": 10.8,
+          "discount": 0
+        }
+      ],
+      "isWarehousePrinted": false,
+      "createdAt": "2026-07-17T10:02:31.412Z",
+      "updatedAt": "2026-07-17T10:02:42.590Z"
+    },
+    {
+      "id": 1784282753518,
+      "orderNumber": "ORD-753518",
+      "customer": "Eko",
+      "phone": "",
+      "date": "2026-07-17T10:05:53.511Z",
+      "status": "Jo'natilgan",
+      "warehouse": "Склад",
+      "address": "",
+      "comment": "",
+      "currency": "USD",
+      "lines": [
+        {
+          "id": 1784282749700,
+          "productId": 71,
+          "name": "Dr Pepper Lemon",
+          "image": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400",
+          "qty": 100,
+          "price": 1.24,
+          "discount": 0
+        }
+      ],
+      "isWarehousePrinted": true,
+      "createdAt": "2026-07-17T10:05:53.518Z",
+      "updatedAt": "2026-07-17T10:05:58.345Z"
+    },
+    {
+      "id": 1784289377194,
+      "orderNumber": "ORD-377194",
+      "customer": "Umar",
+      "phone": "",
+      "date": "2026-07-17T11:56:17.186Z",
+      "status": "Jo'natilgan",
+      "warehouse": "Склад",
+      "address": "",
+      "comment": "",
+      "currency": "USD",
+      "lines": [
+        {
+          "id": 1784289368985,
+          "productId": 10,
+          "name": "Bounty Almond",
+          "image": "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=400",
+          "qty": 100,
+          "price": 2.84,
+          "discount": 0
+        },
+        {
+          "id": 1784289372531,
+          "productId": 71,
+          "name": "Dr Pepper Lemon",
+          "image": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400",
+          "qty": 100,
+          "price": 1.24,
+          "discount": 0
+        }
+      ],
+      "isWarehousePrinted": true,
+      "createdAt": "2026-07-17T11:56:17.194Z",
+      "updatedAt": "2026-07-17T11:56:26.254Z"
+    },
+    {
+      "id": 1784313795421,
+      "orderNumber": "ORD-795421",
+      "customer": "Magazin-O'rikzor",
+      "phone": "",
+      "date": "2026-07-17T18:43:15.412Z",
+      "status": "Jo'natilgan",
+      "warehouse": "Склад",
+      "address": "",
+      "comment": "",
+      "currency": "USD",
+      "lines": [
+        {
+          "id": 1784313673143,
+          "productId": 8,
+          "name": "Mars Peanut",
+          "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400",
+          "qty": 100,
+          "price": 0.7,
+          "discount": 0
+        },
+        {
+          "id": 1784313683208,
+          "productId": 1784282239849,
+          "name": "pepsi",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5uWFEmJKRXLQcwi7A0wgG7MzacMuiOKlIqxrW3fnJNg&s=10",
+          "qty": 10,
+          "price": 10.8,
+          "discount": 0
+        },
+        {
+          "id": 1784313700748,
+          "productId": 10,
+          "name": "Bounty Almond",
+          "image": "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=400",
+          "qty": 10,
+          "price": 2.84,
+          "discount": 0
+        },
+        {
+          "id": 1784313722922,
+          "productId": 15,
+          "name": "Alpen Gold Oreo",
+          "image": "https://images.unsplash.com/photo-1481391243133-f96216dcb5d2?w=400",
+          "qty": 10,
+          "price": 1.68,
+          "discount": 0
+        },
+        {
+          "id": 1784313736566,
+          "productId": 4,
+          "name": "Mars Oreo",
+          "image": "https://images.unsplash.com/photo-1511381939415-e44015466834?w=400",
+          "qty": 100,
+          "price": 0.57,
+          "discount": 0
+        },
+        {
+          "id": 1784313743968,
+          "productId": 74,
+          "name": "Pepsi Cherry",
+          "image": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400",
+          "qty": 100,
+          "price": 1.81,
+          "discount": 0
+        },
+        {
+          "id": 1784313753346,
+          "productId": 98,
+          "name": "Pepsi Lemon",
+          "image": "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=400",
+          "qty": 100,
+          "price": 2.09,
+          "discount": 0
+        },
+        {
+          "id": 1784313762248,
+          "productId": 13,
+          "name": "Twix Peanut",
+          "image": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=400",
+          "qty": 100,
+          "price": 0.67,
+          "discount": 0
+        },
+        {
+          "id": 1784313778960,
+          "productId": 22,
+          "name": "Kit Kat Caramel",
+          "image": "https://images.unsplash.com/photo-1606312619070-d48b4cdd0d59?w=400",
+          "qty": 100,
+          "price": 0.52,
+          "discount": 0
+        },
+        {
+          "id": 1784313791399,
+          "productId": 3,
+          "name": "Kinder White",
+          "image": "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=400",
+          "qty": 10,
+          "price": 1.24,
+          "discount": 0
+        }
+      ],
+      "isWarehousePrinted": true,
+      "createdAt": "2026-07-17T18:43:15.421Z",
+      "updatedAt": "2026-07-17T18:43:23.715Z"
+    }
+  ],
+  "customers": [],
+  "customerOrders": []
+}

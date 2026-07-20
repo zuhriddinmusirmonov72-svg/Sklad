@@ -388,6 +388,32 @@ app.get('/api/stats', async (req, res) => {
   } catch (err) { res.status(500).json({ success: false, message: err.message }); }
 });
 
+// ==================== IMPORT FROM JSON (bir martalik) ====================
+app.post('/api/admin/import-json', async (req, res) => {
+  if (!useMongoose) return res.status(400).json({ success: false, message: 'MongoDB ishlamayapti' });
+  try {
+    const raw = fs.readFileSync(DB_PATH, 'utf8');
+    const db = JSON.parse(raw);
+    const products = db.products || [];
+
+    let imported = 0;
+    for (const p of products) {
+      const exists = await Product.findOne({ name: p.name, weight: p.weight, packQuantity: p.packQuantity });
+      if (!exists) {
+        await Product.create({
+          name: p.name, category: p.category || '',
+          weight: p.weight || 0, packQuantity: p.packQuantity || 1,
+          price: p.price || 0, stock: p.stock || 0, image: p.image || '',
+        });
+        imported++;
+      }
+    }
+    res.json({ success: true, message: `${imported} ta yangi mahsulot import qilindi`, total: products.length });
+  } catch (err) {
+    res.status(500).json({ success: false, message: err.message });
+  }
+});
+
 // ==================== HEALTH ====================
 app.get('/api/health', async (req, res) => {
   try {
